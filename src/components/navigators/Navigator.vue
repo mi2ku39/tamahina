@@ -1,7 +1,7 @@
 <template>
   <div class="navigator-container text-hi">
     <div>
-      <h1>
+      <h1 class="font-expletus">
         Site Logo
       </h1>
     </div>
@@ -32,7 +32,7 @@ export default {
 }
 
 .navigator-container > div {
-  margin: 4px;
+  margin-right: 10px;
 }
 
 .navigator-container h1 {
