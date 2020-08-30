@@ -1,3 +1,8 @@
-body{
+body {
   @extend .font-noto;
+  @extend .text-md;
+
+  background-image: url("~assets/img/shima.png");
+  background-color: #FAFAFA;
+  background-size: 10em;
 }
