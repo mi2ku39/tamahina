@@ -5,7 +5,9 @@ export default {
     env: {
         NODE_ENV
     },
-    css: [],
+    css: [
+        '@/assets/styles/main.scss'
+    ],
     buildModules: [
         '@nuxtjs/dotenv'
     ]
