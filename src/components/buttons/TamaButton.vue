@@ -1,0 +1,57 @@
+<template>
+  <a class="tamabutton-container font-expletus" href="#">
+    <slot/>
+  </a>
+</template>
+
+<script>
+export default {
+  name: "tama-button"
+}
+</script>
+
+<style lang="scss">
+.tamabutton-container {
+  transition: color 200ms linear;
+  position: relative;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 8px;
+  color: #FFFFFF;
+  text-decoration: none;
+  overflow: hidden;
+  border: 4px solid #000000;
+  z-index: 3;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+    z-index: -2;
+  }
+
+  &:before {
+    transition: right 200ms ease-in-out;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: #000000;
+
+    &:before {
+      right: 0;
+    }
+  }
+}
+</style>

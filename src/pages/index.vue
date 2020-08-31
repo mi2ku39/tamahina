@@ -19,6 +19,11 @@
           <p>
             タマクラ / ヒナクラって何？
           </p>
+          <div class="text-right">
+            <tama-button>
+              more
+            </tama-button>
+          </div>
         </div>
       </div>
     </div>
@@ -54,10 +59,11 @@
 
 <script>
 import DummyImage from "../components/samples/DummyImage";
+import TamaButton from "../components/buttons/TamaButton";
 
 export default {
   name: "index",
-  components: {DummyImage}
+  components: {TamaButton, DummyImage}
 }
 </script>
 
