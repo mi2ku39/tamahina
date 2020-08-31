@@ -1,5 +1,5 @@
 <template>
-  <div class="navigator-container text-hi">
+  <div class="navigator-container text-hi mt-3">
     <div>
       <h1 class="font-expletus">
         Site Logo

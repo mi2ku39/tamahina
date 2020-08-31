@@ -2,7 +2,11 @@ body {
   @extend .font-noto;
   @extend .text-md;
 
+  width: 100%;
+  margin: 0;
   background-image: url("~assets/img/shima.png");
   background-color: #FAFAFA;
   background-size: 10em;
+
+  overflow: hidden auto;
 }
