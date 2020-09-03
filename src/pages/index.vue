@@ -40,20 +40,6 @@
         </div>
       </div>
     </div>
-
-    <div class="container-fluid bg-black py-5 text-md-wh" style="margin-top: 5em;">
-      <div class="row">
-        <div class="col-12">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 text-center">
-                &copy; 2020 ヒナクラ, おかもと from GhostServer.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -68,24 +54,5 @@ export default {
 </script>
 
 <style lang="scss">
-@mixin shadow($offset_x: 0.5em, $offset_y: 0.5em, $blur:0, $color: #9E9E9E) {
-  filter: drop-shadow($offset_x $offset_y $blur $color);
-}
-
-.index-shadow-rb {
-  @include shadow;
-}
-
-.index-shadow-rb-sm {
-  @include shadow(.0625em, .0625em, 0, #BDBDBD);
-}
-
-.index-shadow-lb {
-  @include shadow(-.5em);
-}
-
-.index-shadow-lb-sm {
-  @include shadow(-.0625em, .0625em, 0, #BDBDBD);
-}
 
 </style>
