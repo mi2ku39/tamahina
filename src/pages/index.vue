@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mt-3">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
           <dummy-image width="20em" height="20em" class="index-shadow-lb">
