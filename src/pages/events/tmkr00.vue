@@ -1,13 +1,27 @@
 <template>
   <div>
     <div class="container bg-white fill-right mt-5 tmkr0-shadow-lb">
-      タマクラ0
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="font-expletus text-strong index-shadow-lb-sm">Logo</h1>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 <script>
+import {mapMutations} from "vuex"
+
 export default {
-  name: "tmkr00"
+  name: "tmkr00",
+  mounted() {
+    this.setBackgroundColor('#FFFFFF');
+  },
+  methods: {
+    ...mapMutations({
+      setBackgroundColor: 'setBackgroundColor'
+    })
+  }
 }
 </script>
 <style lang="scss">
