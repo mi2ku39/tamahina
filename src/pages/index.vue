@@ -20,9 +20,11 @@
             タマクラ / ヒナクラって何？
           </p>
           <div class="text-right">
-            <tama-button>
-              more
-            </tama-button>
+            <nuxt-link to="/about">
+              <tama-button>
+                more
+              </tama-button>
+            </nuxt-link>
           </div>
         </div>
       </div>
