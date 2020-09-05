@@ -14,7 +14,8 @@
           <div class="container">
             <div class="row">
               <div class="col-12 text-center">
-                &copy; 2020 ヒナクラ, おかもと from GhostServer.
+                <span class="hncl-cr">&copy; 2020 ヒナクラ, </span>
+                <img src="@/assets/img/gs_wh.png" class="gs-logo"/>.
               </div>
             </div>
           </div>
@@ -50,6 +51,16 @@ export default {
 }
 
 .gs-logo {
+  height: 2em;
+  vertical-align: middle;
+  opacity: .6;
+}
+
+.hncl-cr {
+  vertical-align: middle;
+}
+
+.gs-logo-cr {
   height: 2em;
   vertical-align: middle;
   opacity: .6;
