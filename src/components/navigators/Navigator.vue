@@ -2,11 +2,13 @@
   <div class="navigator-container text-hi mt-3">
     <div>
       <h1 class="font-expletus">
-        Site Logo
+        <nuxt-link to="/">Site Logo</nuxt-link>
       </h1>
     </div>
     <div>
-      about
+      <nuxt-link to="/about">
+        about
+      </nuxt-link>
     </div>
     <div>
       events
@@ -38,6 +40,11 @@ export default {
 .navigator-container h1 {
   margin: 0;
   padding: 0;
+}
+
+.navigator-container a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 </style>
