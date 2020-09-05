@@ -1,12 +1,18 @@
 <template>
-  <a class="tamabutton-container font-expletus" href="#">
+  <nuxt-link class="tamabutton-container font-expletus" :to="to">
     <slot/>
-  </a>
+  </nuxt-link>
 </template>
 
 <script>
 export default {
-  name: "tama-button"
+  name: "tama-button",
+  props: {
+    to: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

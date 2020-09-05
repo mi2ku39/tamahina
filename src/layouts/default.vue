@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden-overflow-x">
+  <div class="hidden-overflow-x" :style="style">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -36,10 +36,22 @@
 
 <script>
 import Navigator from "../components/navigators/Navigator";
+import {mapState} from "vuex";
 
 export default {
   name: "default",
-  components: {Navigator}
+  components: {Navigator},
+  computed: {
+    style: function () {
+      return {
+        'background-color': this.backgroundColor,
+        'transition': 'background-color 200ms'
+      }
+    },
+    ...mapState({
+      backgroundColor: 'backgroundColor'
+    })
+  }
 }
 </script>
 

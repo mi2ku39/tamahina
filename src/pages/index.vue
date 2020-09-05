@@ -20,11 +20,9 @@
             タマクラ / ヒナクラって何？
           </p>
           <div class="text-right">
-            <nuxt-link to="/about">
-              <tama-button>
-                more
-              </tama-button>
-            </nuxt-link>
+            <tama-button to="/about">
+              more
+            </tama-button>
           </div>
         </div>
       </div>
@@ -48,10 +46,19 @@
 <script>
 import DummyImage from "../components/samples/DummyImage";
 import TamaButton from "../components/buttons/TamaButton";
+import {mapMutations} from "vuex";
 
 export default {
   name: "index",
-  components: {TamaButton, DummyImage}
+  components: {TamaButton, DummyImage},
+  mounted() {
+    this.setBackgroundColor('#FAFAFA');
+  },
+  methods: {
+    ...mapMutations({
+      setBackgroundColor: 'setBackgroundColor'
+    })
+  }
 }
 </script>
 

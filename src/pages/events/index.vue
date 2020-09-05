@@ -14,65 +14,67 @@
 
       <div class="row">
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr00_logo.png"
-               alt="tamaclub 0"
-               class="img-fluid"/>
-        </div> 
-        
+          <nuxt-link to="/events/tmkr00">
+            <img src="@/assets/img/logos/tmkr00_logo.png"
+                 alt="tamaclub 0"
+                 class="img-fluid"/>
+          </nuxt-link>
+        </div>
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr01_logo.png"
                alt="tamaclub 1"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr02_logo.png"
                alt="tamaclub 2"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr02.5_logo.png"
                alt="tamaclub 2.5"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr03_logo.png"
                alt="tamaclub 3"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
-        
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="@/assets/img/logos/hnkr.png"
                alt="hinaclub"
@@ -84,8 +86,18 @@
 </template>
 
 <script>
+import {mapMutations} from "vuex";
+
 export default {
-  name: "events"
+  name: "events",
+  mounted() {
+    this.setBackgroundColor('#FAFAFA');
+  },
+  methods: {
+    ...mapMutations({
+      setBackgroundColor: 'setBackgroundColor'
+    })
+  }
 }
 </script>
 

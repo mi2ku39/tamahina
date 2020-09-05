@@ -11,7 +11,9 @@
       </nuxt-link>
     </div>
     <div>
-      events
+      <nuxt-link to="/events">
+        events
+      </nuxt-link>
     </div>
     <div>
       others

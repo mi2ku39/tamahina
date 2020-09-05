@@ -64,10 +64,19 @@
 
 <script lang="ts">
 import DummyImage from "../components/samples/DummyImage.vue";
+import {mapMutations} from "vuex";
 
 export default {
   name: "about",
   components: {DummyImage},
+  mounted() {
+    this.setBackgroundColor('#FAFAFA');
+  },
+  methods: {
+    ...mapMutations({
+      setBackgroundColor: 'setBackgroundColor'
+    })
+  }
 }
 </script>
 
