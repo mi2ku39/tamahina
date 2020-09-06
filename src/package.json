@@ -4,8 +4,13 @@
     "dev": "HOST=0.0.0.0 nuxt"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "@nuxtjs/dotenv": "^1.4.1",
-    "nuxt": "^2.14.4"
+    "nuxt": "^2.14.4",
+    "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
     "bootstrap-4-grid": "^3.4.0",

@@ -18,5 +18,11 @@ export default {
                 content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
             }
         ]
+    },
+    modules: [
+        'nuxt-fontawesome'
+    ],
+    fontawesome: {
+        component: 'fa'
     }
 }
