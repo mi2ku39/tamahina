@@ -17,6 +17,16 @@
         </div>
       </div>
     </div>
+
+    <div class="container bg-white fill-left mt-5 tmkr0-shadow-rb slide-in-from-right">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="font-expletus text-strong tmkr0-shadow-rb-sm">
+            Members
+          </h1>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
