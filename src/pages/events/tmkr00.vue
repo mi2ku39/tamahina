@@ -38,6 +38,69 @@
             </template>
             <template v-slot:body>
               <div class="text-left">
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <dummy-image class="img-round">
+                      no img
+                    </dummy-image>
+                  </template>
+                  <template v-slot:name>
+                    emuracool
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/OrijinHeathaze">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                </dj-profile>
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <dummy-image class="img-round">
+                      no img
+                    </dummy-image>
+                  </template>
+                  <template v-slot:name>
+                    塩パセリ
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/siopaseri">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                </dj-profile>
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <dummy-image class="img-round">
+                      no img
+                    </dummy-image>
+                  </template>
+                  <template v-slot:name>
+                    甘納豆
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/AmaNato0">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                </dj-profile>
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <dummy-image class="img-round">
+                      no img
+                    </dummy-image>
+                  </template>
+                  <template v-slot:name>
+                    ちゃい
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/drag_chai">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                </dj-profile>
 
               </div>
             </template>
@@ -49,12 +112,14 @@
 </template>
 <script>
 import {mapMutations} from "vuex"
-import {faTwitch} from '@fortawesome/free-brands-svg-icons';
+import {faTwitch, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import VerticalTitleContainer from "../../components/layouts/VerticalTitleContainer";
+import DummyImage from "../../components/samples/DummyImage";
+import DjProfile from "../../components/layouts/DjProfile";
 
 export default {
   name: "tmkr00",
-  components: {VerticalTitleContainer},
+  components: {DjProfile, DummyImage, VerticalTitleContainer},
   mounted() {
     this.setBackgroundColor('#FFFFFF');
   },
@@ -66,7 +131,8 @@ export default {
   computed: {
     fa: function () {
       return {
-        twitch: faTwitch
+        twitch: faTwitch,
+        twitter: faTwitter
       }
     }
   }
