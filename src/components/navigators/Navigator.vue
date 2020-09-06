@@ -2,7 +2,11 @@
   <div class="navigator-container text-hi mt-3">
     <div>
       <h1 class="font-expletus">
-        <nuxt-link to="/">Site Logo</nuxt-link>
+        <nuxt-link to="/">
+          <img src="@/assets/img/logos/hnkr.png"
+               alt="ヒナクラ"
+               class="navigator-site-logo"/>
+        </nuxt-link>
       </h1>
     </div>
     <div>
@@ -47,6 +51,11 @@ export default {
 .navigator-container a {
   text-decoration: none;
   font-weight: bold;
+}
+
+.navigator-site-logo {
+  height: 2em;
+  object-fit: contain;
 }
 
 </style>
