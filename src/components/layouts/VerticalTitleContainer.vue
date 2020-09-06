@@ -36,11 +36,15 @@ export default {
       border-bottom: none;
       margin-bottom: 0;
 
-      writing-mode: vertical-lr;
+      writing-mode: vertical-rl;
       border-right: 2px solid #212121;
-      padding: .25em 0;
+      padding: .25em .25em 0 0;
       font-size: 3em;
     }
   }
+}
+
+.title {
+  vertical-align: top;
 }
 </style>
