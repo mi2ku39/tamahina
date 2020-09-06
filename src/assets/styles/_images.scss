@@ -1,4 +1,16 @@
+.img-fluid {
+  max-width: 100%;
+  max-height: 10em;
+  object-fit: contain;
+}
+
 .img-round {
   border-radius: 100%;
   border: 2px solid #FFFFFF;
+}
+
+.img-icon {
+  height: 10em;
+  width: 10em;
+  object-fit: cover;
 }

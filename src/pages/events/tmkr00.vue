@@ -15,13 +15,14 @@
             2020/5/20 22:00~
           </h2>
 
-          <h1 class="font-expletus text-strong tmkr0-shadow-rb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr0-shadow-lb-sm mb-0">
             会場
           </h1>
           <h2 class="text-hi mt-0">
             Twitch
             <fa :icon="fa.twitch"/>
           </h2>
+
         </div>
       </div>
     </div>
@@ -34,7 +35,7 @@
           </h1>
           <vertical-title-container>
             <template v-slot:title>
-              DJ
+              DJs
             </template>
             <template v-slot:body>
               <div class="text-left">
@@ -157,11 +158,5 @@ export default {
 
 .tmkr0-shadow-lb-sm {
   @include shadow(-.0625em, .0625em, 0, #FFF59D);
-}
-
-.img-fluid {
-  max-width: 100%;
-  max-height: 10em;
-  object-fit: contain;
 }
 </style>

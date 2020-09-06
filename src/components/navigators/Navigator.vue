@@ -1,26 +1,26 @@
 <template>
   <div class="navigator-container text-hi mt-3">
     <div>
-      <h1 class="font-expletus">
-        <nuxt-link to="/">
-          <img src="@/assets/img/logos/hnkr.png"
-               alt="ヒナクラ"
-               class="navigator-site-logo"/>
+      <nuxt-link to="/">
+        <img src="@/assets/img/logos/hnkr.png"
+             alt="ヒナクラ"
+             class="navigator-site-logo"/>
+      </nuxt-link>
+    </div>
+    <div class="navigator-item-container">
+      <div>
+        <nuxt-link to="/about">
+          about
         </nuxt-link>
-      </h1>
-    </div>
-    <div>
-      <nuxt-link to="/about">
-        about
-      </nuxt-link>
-    </div>
-    <div>
-      <nuxt-link to="/events">
-        events
-      </nuxt-link>
-    </div>
-    <div>
-      others
+      </div>
+      <div>
+        <nuxt-link to="/events">
+          events
+        </nuxt-link>
+      </div>
+      <div>
+        others
+      </div>
     </div>
   </div>
 </template>
@@ -39,23 +39,26 @@ export default {
   align-items: center;
 }
 
-.navigator-container > div {
-  margin-right: 10px;
-}
-
-.navigator-container h1 {
-  margin: 0;
-  padding: 0;
-}
-
 .navigator-container a {
   text-decoration: none;
   font-weight: bold;
 }
 
 .navigator-site-logo {
-  height: 2em;
+  height: 4em;
   object-fit: contain;
+}
+
+.navigator-item-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  & > div {
+    margin: 0 5px;
+  }
 }
 
 </style>
