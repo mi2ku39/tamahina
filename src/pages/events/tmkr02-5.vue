@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-white fill-right mt-5 tmkr2-shadow-lb">
+    <div class="container bg-white fill-right mt-5 tmkr2_5-shadow-lb">
       <div class="row">
         <div class="col-12 text-center mb-3">
           <img src="@/assets/img/logos/tmkr02.5_logo.png"
@@ -13,21 +13,21 @@
         </div>
 
         <div class="col-12 text-center">
-          <h1 class="font-expletus text-strong tmkr2-shadow-lb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr2_5-shadow-lb-sm mb-0">
             Theme
           </h1>
           <h2 class="text-hi mt-0">
             タマクラっぽいの
           </h2>
 
-          <h1 class="text-strong tmkr2-shadow-lb-sm mb-0">
+          <h1 class="text-strong tmkr2_5-shadow-lb-sm mb-0">
             開催日時
           </h1>
           <h2 class="text-hi my-0">
             2020/8/30 14:00~
           </h2>
 
-          <h1 class="font-expletus text-strong tmkr2-shadow-lb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr2_5-shadow-lb-sm mb-0">
             会場
           </h1>
           <h2 class="text-hi mt-0">
@@ -36,7 +36,7 @@
             )
           </h2>
 
-          <h1 class="font-expletus text-strong tmkr2-shadow-lb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr2_5-shadow-lb-sm mb-0">
             参加表明
           </h1>
           <h2 class="text-hi mt-0">
@@ -49,11 +49,11 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr2-shadow-rb py-3">
+    <div class="container bg-white fill-left mt-5 tmkr2_5-shadow-rb py-3">
       <div class="row">
         <div class="col-12">
           <div class="text-center">
-            <h1 class="font-expletus text-strong tmkr2-shadow-rb-sm">
+            <h1 class="font-expletus text-strong tmkr2_5-shadow-rb-sm">
               Members
             </h1>
           </div>
@@ -156,19 +156,19 @@ export default {
   filter: drop-shadow($offset_x $offset_y $blur $color);
 }
 
-.tmkr2-shadow-rb {
+.tmkr2_5-shadow-rb {
   @include shadow;
 }
 
-.tmkr2-shadow-rb-sm {
+.tmkr2_5-shadow-rb-sm {
   @include shadow(.0625em, .0625em, 0, #A7FFEB);
 }
 
-.tmkr2-shadow-lb {
+.tmkr2_5-shadow-lb {
   @include shadow(-.5em);
 }
 
-.tmkr2-shadow-lb-sm {
+.tmkr2_5-shadow-lb-sm {
   @include shadow(-.0625em, .0625em, 0, #A7FFEB);
 }
 </style>

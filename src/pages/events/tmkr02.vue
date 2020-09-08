@@ -72,7 +72,7 @@
                 </h2>
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/foto.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d1r0.jpg"
                          alt="ふぉーと"
                          class="img-icon img-round"/>
                   </template>
@@ -87,7 +87,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/saketoba.png"
+                    <img src="@/assets/img/social_icons/tmkr02/d1r2.png"
                          alt="鮭とば"
                          class="img-icon img-round">
                   </template>
@@ -107,7 +107,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/siopaseri.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d1r3.jpg"
                          alt="塩パセリ"
                          class="img-icon img-round">
                   </template>
@@ -127,7 +127,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr01/pwl32.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d1r4.jpg"
                          alt="pwl32"
                          class="img-icon img-round">
                   </template>
@@ -147,9 +147,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d1r5.jpg"
+                         alt="ツカタク"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     ツカタク
@@ -167,7 +167,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/emuracool.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d1r6.jpg"
                          alt="emuracool"
                          class="img-icon img-round">
                   </template>
@@ -187,9 +187,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d1w1.jpg"
+                         alt="わたあめ"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     わたあめ
@@ -207,7 +207,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/ji__1.png"
+                    <img src="@/assets/img/social_icons/tmkr02/d1w3.png"
                          alt="じっつ"
                          class="img-icon img-round"/>
                   </template>
@@ -227,9 +227,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d1w4.jpg"
+                         alt="食パン"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     食パン
@@ -247,9 +247,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d1w2.jpg"
+                         alt="雪女"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     雪女
@@ -267,7 +267,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/ke_odakyu9000.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d1w5.png"
                          alt="ケー"
                          class="img-icon img-round"/>
                   </template>
@@ -303,9 +303,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d1r1.jpg"
+                         alt="specia"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     specia
@@ -324,9 +324,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round img-icon">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2r1.jpg"
+                         alt="Matter"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     Matter
@@ -344,9 +344,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2r3.jpg"
+                         alt="とまとまん"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     とまとまん
@@ -364,9 +364,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2r4.jpg"
+                         alt="TSURU"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     TSURU
@@ -384,7 +384,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/AmaNato0.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d2r5.jpg"
                          alt="甘納豆"
                          class="img-round img-icon"/>
                   </template>
@@ -404,9 +404,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2w1.jpg"
+                         alt="xai"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     xai
@@ -444,9 +444,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-icon img-round">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2w3.jpg"
+                         alt="ルリトラ"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     ルリトラ
@@ -464,7 +464,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/john.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d2w4.jpg"
                          alt="john"
                          class="img-round img-icon">
                   </template>
@@ -487,9 +487,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round img-icon">
-                      no image
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr02/d2w5.jpg"
+                         alt="鶴/𝑰𝑵𝑻𝑬𝑹𝑵𝑬𝑻_𝑮𝑰𝑹𝑳"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     鶴/𝑰𝑵𝑻𝑬𝑹𝑵𝑬𝑻_𝑮𝑰𝑹𝑳
@@ -507,7 +507,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02/drag_chai.jpg"
+                    <img src="@/assets/img/social_icons/tmkr02/d2w6.jpg"
                          alt="ちゃい"
                          class="img-round img-icon">
                   </template>
