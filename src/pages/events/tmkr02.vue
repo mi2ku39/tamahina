@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 text-center mb-3">
           <img src="@/assets/img/logos/tmkr02_logo.png"
-               alt="タマクラ"
+               alt="タマクラ2"
                class="img-fluid"/>
         </div>
 

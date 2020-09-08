@@ -38,9 +38,11 @@
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr02.5_logo.png"
-               alt="tamaclub 2.5"
-               class="img-fluid"/>
+          <nuxt-link to="/events/tmkr02-5">
+            <img src="@/assets/img/logos/tmkr02.5_logo.png"
+                 alt="tamaclub 2.5"
+                 class="img-fluid"/>
+          </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
