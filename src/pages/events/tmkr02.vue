@@ -79,6 +79,11 @@
                   <template v-slot:name>
                     ふぉーと
                   </template>
+                  <template v-slot:social>
+                    <div class="d-flex align-items-center">
+                      <team-tag red/>
+                    </div>
+                  </template>
                   <template v-slot:poem>
                     誰でもないあなたへ<br/>
                     通りすがりの仮面DJです。
@@ -95,9 +100,14 @@
                     鮭とば
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/s__toba" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/s__toba" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     聖地巡礼しろ（しなさい）<br>
@@ -115,9 +125,14 @@
                     塩パセリ
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/siopaseri" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/siopaseri" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     全オタクでも3割刺します<br/>
@@ -135,9 +150,14 @@
                     pwl32
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/pwl32" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/pwl32" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     HARDCOREをちょっとだけかじったやつ<br/>
@@ -155,9 +175,14 @@
                     ツカタク
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/tsukataku_s" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/tsukataku_s" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     今回は燃えより萌えで<br/>
@@ -175,9 +200,14 @@
                     emuracool
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/OrijinHeathaze" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/OrijinHeathaze" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     幅広く刺していくオタクになりたい<br/>
@@ -195,9 +225,14 @@
                     わたあめ
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/wata_pa_chi" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/wata_pa_chi" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     アニソンとか可愛いの<br/>
@@ -215,9 +250,14 @@
                     じっつ
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/jt__1" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/jt__1" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     今回はアニソンとちょこっとVをながしたいとかんがえています"<br/>
@@ -235,9 +275,14 @@
                     食パン
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/mhn_shock_pan" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/mhn_shock_pan" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     2.5次ドルとか2012年前後のオタクソングとか<br/>
@@ -255,9 +300,14 @@
                     雪女
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/10_wia_" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/10_wia_" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     ブチ上げソングが好きなオタク、アニリミが好きなオタク<br/>
@@ -275,9 +325,14 @@
                     ケー
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/ke_odakyu9000" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/ke_odakyu9000" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     自称ロリ、アイマスP、Beatmaniaシリーズオタク、BMSやるひと（全部入るとは言ってない）<br/>
@@ -311,9 +366,14 @@
                     specia
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/Revaty0421" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/Revaty0421" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     広く浅くみるけどやっぱり日常系が一番！<br/>
@@ -332,9 +392,14 @@
                     Matter
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/Matter3_DJ" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/Matter3_DJ" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     エロと魔法の学園モノ<br>
@@ -352,9 +417,14 @@
                     とまとまん
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/tomatoman714" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/tomatoman714" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     ユーロビート爆踊り部になりたくないか？<br>
@@ -372,9 +442,14 @@
                     TSURU
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/Japan_crane0916" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/Japan_crane0916" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     ロックに片足突っ込んだ感じのDJです。<br>
@@ -392,9 +467,14 @@
                     甘納豆
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/AmaNato0" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag red class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/AmaNato0" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     2nd GEARを入れていきます<br>
@@ -412,9 +492,14 @@
                     xai
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/xai_rakutan" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/xai_rakutan" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     たぶんVとか女児アニ<br>
@@ -432,9 +517,14 @@
                     スージー（Ⅱ世）
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/su_ji_2nd" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/su_ji_2nd" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     多分女子向け<br>
@@ -452,9 +542,14 @@
                     ルリトラ
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/murabitoa3714" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/murabitoa3714" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     謎musicを布教しに来ました。ポピュラーな音楽を流します。<br>
@@ -472,9 +567,14 @@
                     john
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/_krym31" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/_krym31" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     小学六年生から周りが馬鹿らしく感じ感情が薄れて行く
@@ -495,9 +595,14 @@
                     鶴/𝑰𝑵𝑻𝑬𝑹𝑵𝑬𝑻_𝑮𝑰𝑹𝑳
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/crane_dantata" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/crane_dantata" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     アニメ/二次元アイドル<br>
@@ -515,9 +620,14 @@
                     ちゃい
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/drag_chai" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
+                    <div class="d-flex align-items-center">
+                      <team-tag white class="mr-1"/>
+                      <div>
+                        <a href="https://twitter.com/drag_chai" target="_blank">
+                          <fa :icon="fa.twitter"/>
+                        </a>
+                      </div>
+                    </div>
                   </template>
                   <template v-slot:poem>
                     いつもはkawaii musicだけど今回はkakkoii musicもいきます<br>
@@ -542,10 +652,11 @@ import VerticalTitleContainer from "../../components/layouts/VerticalTitleContai
 import DjProfile from "../../components/layouts/DjProfile";
 import DummyImage from "../../components/samples/DummyImage";
 import {mapMutations} from "vuex";
+import TeamTag from "../../components/tag/TeamTag";
 
 export default {
   name: "tmkr01",
-  components: {DummyImage, DjProfile, VerticalTitleContainer},
+  components: {TeamTag, DummyImage, DjProfile, VerticalTitleContainer},
   mounted() {
     this.setBackgroundColor("#ffebee");
   },
