@@ -41,9 +41,9 @@
               <div class="text-left">
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round">
-                      no img
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr00/emuracool.jpg"
+                         alt="emuracool"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     emuracool
@@ -57,9 +57,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round">
-                      no img
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr00/siopaseri.jpg"
+                         alt="塩パセリ"
+                         class="img-round img-icon">
                   </template>
                   <template v-slot:name>
                     塩パセリ
@@ -73,9 +73,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round">
-                      no img
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr00/AmaNato0.jpg"
+                         alt="甘納豆"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     甘納豆
@@ -89,9 +89,9 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <dummy-image class="img-round">
-                      no img
-                    </dummy-image>
+                    <img src="@/assets/img/social_icons/tmkr00/drag_chai.jpg"
+                         alt="ちゃい"
+                         class="img-icon img-round">
                   </template>
                   <template v-slot:name>
                     ちゃい
