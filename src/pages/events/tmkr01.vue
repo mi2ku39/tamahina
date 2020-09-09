@@ -214,7 +214,7 @@
                          class="img-icon img-round">
                   </template>
                   <template v-slot:name>
-                    甘納豆🍊🍫
+                    甘納豆
                   </template>
                   <template v-slot:social>
                     <a href="https://twitter.com/AmaNato0" target="_blank">

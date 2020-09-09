@@ -74,7 +74,7 @@
                     Shock_Pan
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/mhn_shock_pan" target="_blank">
+                    <a href="https://twitter.com/mgn_shock_pan" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </template>

@@ -278,7 +278,7 @@
                     <div class="d-flex align-items-center">
                       <team-tag white class="mr-1"/>
                       <div>
-                        <a href="https://twitter.com/mhn_shock_pan" target="_blank">
+                        <a href="https://twitter.com/mgn_shock_pan" target="_blank">
                           <fa :icon="fa.twitter"/>
                         </a>
                       </div>
