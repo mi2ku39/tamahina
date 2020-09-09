@@ -655,7 +655,7 @@ import {mapMutations} from "vuex";
 import TeamTag from "../../components/tag/TeamTag";
 
 export default {
-  name: "tmkr01",
+  name: "tmkr02",
   components: {TeamTag, DummyImage, DjProfile, VerticalTitleContainer},
   mounted() {
     this.setBackgroundColor("#ffebee");

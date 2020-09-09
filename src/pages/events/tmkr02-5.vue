@@ -130,7 +130,7 @@ import DummyImage from "../../components/samples/DummyImage";
 import {mapMutations} from "vuex";
 
 export default {
-  name: "tmkr01",
+  name: "tmkr02-5",
   components: {DummyImage, DjProfile, VerticalTitleContainer},
   mounted() {
     this.setBackgroundColor("#E0F2F1");
