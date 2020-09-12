@@ -37,7 +37,7 @@
           </h2>
 
           <h1 class="font-expletus text-strong tmkr2_5-shadow-lb-sm mb-0">
-            参加表明
+            イベント詳細
           </h1>
           <h2 class="text-hi mt-0">
             <a href="https://twipla.jp/events/454289" target="_blank">

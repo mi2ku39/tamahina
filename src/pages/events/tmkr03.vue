@@ -37,12 +37,16 @@
             会場
           </h1>
           <h2 class="text-hi my-0">
-            DAY 1: Twitch
+            DAY 1: <a href="https://www.twitch.tv/tamakura_hinakura" target="_blank">
+            Twitch
             <fa :icon="fa.twitch"/>
+          </a>
           </h2>
           <h2 class="text-hi my-0">
-            DAY 2: Twitch
+            DAY 2: <a href="https://www.twitch.tv/tamakura_hinakura" target="_blank">
+            Twitch
             <fa :icon="fa.twitch"/>
+          </a>
             & スタジオよもだ
           </h2>
           <h2 class="text-hi mt-0">
@@ -52,11 +56,15 @@
           <h1 class="font-expletus text-strong tmkr3-shadow-lb-sm mb-0">
             参加表明
           </h1>
-          <h2 class="text-hi mt-0">
+          <h2 class="text-hi my-0">
             <a href="https://twipla.jp/events/451957" target="_blank">
               twipla
             </a>
           </h2>
+          <p style="color: #f44336;">
+            ※ オフライン会場へ参加される場合は必ずtwiplaで参加表明をお願い致します。<br>
+            参加表明がなかった場合、ご入場をお断りする場合がございます。
+          </p>
 
         </div>
       </div>

@@ -31,12 +31,14 @@
             会場
           </h1>
           <h2 class="text-hi mt-0">
-            Twitch
-            <fa :icon="fa.twitch"/>
+            <a href="https://www.twitch.tv/tamakura_hinakura" target="_blank">
+              Twitch
+              <fa :icon="fa.twitch"/>
+            </a>
           </h2>
 
           <h1 class="font-expletus text-strong tmkr1-shadow-lb-sm mb-0">
-            参加表明
+            イベント詳細
           </h1>
           <h2 class="text-hi mt-0">
             <a href="https://twipla.jp/events/447534" target="_blank">
