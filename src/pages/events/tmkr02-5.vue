@@ -82,7 +82,7 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/tmkr02-5/Daichi.png"
+                    <img src="@/assets/img/social_icons/tmkr02-5/DAichi.png"
                          alt="DAイチ"
                          class="img-icon img-round">
                   </template>
@@ -148,7 +148,7 @@ export default {
       }
     }
   },
-  head:{
+  head: {
     title: 'タマクラ2.5'
   }
 }
