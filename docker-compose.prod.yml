@@ -9,7 +9,6 @@ services:
     working_dir: /app/
     entrypoint: npm run start
     environment:
-      - CHOKIDAR_USEPOLLING=true
       VIRTUAL_HOST: hnkr.ghostserver.jp
     networks:
       - nginx-proxy
