@@ -41,11 +41,13 @@ export default {
   name: "other",
   components: {TamaButton, DummyImage},
   mounted() {
+    this.setVisitIn(this.$route.name);
     this.setBackgroundColor('#FAFAFA');
   },
   methods: {
     ...mapMutations({
-      setBackgroundColor: 'setBackgroundColor'
+      setBackgroundColor: 'setBackgroundColor',
+      setVisitIn: 'setVisitIn'
     })
   }
 }

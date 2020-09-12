@@ -101,11 +101,13 @@ import {mapMutations} from "vuex";
 export default {
   name: "events",
   mounted() {
+    this.setVisitIn('events');
     this.setBackgroundColor('#FAFAFA');
   },
   methods: {
     ...mapMutations({
-      setBackgroundColor: 'setBackgroundColor'
+      setBackgroundColor: 'setBackgroundColor',
+      setVisitIn: 'setVisitIn'
     })
   }
 }

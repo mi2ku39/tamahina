@@ -15,7 +15,9 @@
             <div class="row">
               <div class="col-12 text-center">
                 <span class="hncl-cr">&copy; 2020 ヒナクラ, </span>
-                <img src="@/assets/img/gs_wh.png" class="gs-logo"/>.
+                <a href="https://portal.ghostserver.jp" target="_blank" class="gs-logo-link">
+                  <img src="@/assets/img/gs_wh.png" class="gs-logo" alt="GhostServer"/>
+                </a>.
               </div>
             </div>
           </div>
@@ -27,7 +29,9 @@
           <span class="designed-by-gs">
             Designed by&nbsp;
           </span>
-          <img src="@/assets/img/gs_wh.png" class="gs-logo"/>
+          <a href="https://portal.ghostserver.jp" target="_blank" class="gs-logo-link">
+            <img src="@/assets/img/gs_wh.png" class="gs-logo" alt="GhostServer"/>
+          </a>
         </span>
       </div>
     </div>
@@ -65,7 +69,6 @@ export default {
 .gs-logo {
   height: 2em;
   vertical-align: middle;
-  opacity: .6;
 }
 
 .hncl-cr {
@@ -81,5 +84,17 @@ export default {
 .designed-by-gs {
   font-size: .75em;
   vertical-align: middle;
+}
+
+.gs-logo-link {
+  transition: opacity 200ms;
+
+  &:link, &:visited {
+    opacity: .6;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
 }
 </style>

@@ -8,17 +8,17 @@
       </nuxt-link>
     </div>
     <div class="navigator-item-container">
-      <div>
+      <div :class="{'visiting': visitIn === 'about'}">
         <nuxt-link to="/about">
           about
         </nuxt-link>
       </div>
-      <div>
+      <div :class="{'visiting': visitIn === 'events'}">
         <nuxt-link to="/events">
           events
         </nuxt-link>
       </div>
-      <div>
+      <div :class="{'visiting': visitIn === 'others'}">
         <nuxt-link to="/others">
           others
         </nuxt-link>
@@ -36,6 +36,7 @@
 
 <script>
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {mapState} from "vuex";
 
 export default {
   name: "Navigator",
@@ -44,7 +45,10 @@ export default {
       return {
         twitter: faTwitter
       }
-    }
+    },
+    ...mapState({
+      visitIn: 'visitIn'
+    })
   }
 }
 </script>
@@ -60,7 +64,7 @@ export default {
   flex-wrap: nowrap;
   align-items: center;
 
-  & a {
+  a {
     text-decoration: none;
     font-weight: bold;
     transition: color 200ms, filter 200ms ease-in-out;
@@ -72,6 +76,15 @@ export default {
     &:hover {
       color: #000000;
       @include shadow(.125em, .125em, 0, rgba(0, 0, 0, .3));
+    }
+  }
+
+  .visiting {
+    a {
+      &:link, &:visited, &:hover {
+        color: #E91E63 !important;
+        filter: none !important;
+      }
     }
   }
 }
