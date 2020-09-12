@@ -1,0 +1,67 @@
+$speed: 200ms;
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.tamahina-enter-active {
+  transition: none $speed;
+
+  .slide-in-from-left {
+    animation: slide-in-from-left $speed ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  .slide-in-from-right {
+    animation: slide-in-from-right $speed ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  .fade-in {
+    transition: opacity $speed linear;
+  }
+}
+
+.tamahina-enter {
+  .fade-in {
+    opacity: 0;
+  }
+}
+
+.tamahina-leave-active {
+  transition: none $speed;
+
+  .slide-in-from-left {
+    animation: slide-in-from-left $speed ease-in-out reverse;
+    animation-fill-mode: forwards;
+  }
+
+  .slide-in-from-right {
+    animation: slide-in-from-right $speed ease-in-out reverse;
+    animation-fill-mode: forwards;
+  }
+
+  .fade-in {
+    transition: opacity $speed linear;
+  }
+}
+
+.tamahina-leave-to {
+  .fade-in {
+    opacity: 0;
+  }
+}

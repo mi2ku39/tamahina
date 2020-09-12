@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .designed-by-gs-position {
   position: absolute;
   bottom: .5em;
