@@ -26,7 +26,7 @@
     </div>
     <div class="navigator-links-container">
       <div>
-        <a href="https://twitter.com/hinakura_202103">
+        <a href="https://twitter.com/hinakura_202103" target="_blank">
           <fa :icon="fa.twitter"/>
         </a>
       </div>
