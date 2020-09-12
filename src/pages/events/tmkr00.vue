@@ -138,6 +138,9 @@ export default {
         twitter: faTwitter
       }
     }
+  },
+  head:{
+    title: 'タマクラ0'
   }
 }
 </script>

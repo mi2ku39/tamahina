@@ -674,6 +674,9 @@ export default {
         twitter: faTwitter
       }
     }
+  },
+  head:{
+    title: 'タマクラ2'
   }
 }
 </script>

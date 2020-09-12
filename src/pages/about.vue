@@ -82,6 +82,9 @@ export default {
       setBackgroundColor: 'setBackgroundColor',
       setVisitIn: 'setVisitIn'
     })
+  },
+  head:{
+    title: 'about'
   }
 }
 </script>

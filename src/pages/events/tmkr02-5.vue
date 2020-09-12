@@ -147,6 +147,9 @@ export default {
         twitter: faTwitter
       }
     }
+  },
+  head:{
+    title: 'タマクラ2.5'
   }
 }
 </script>

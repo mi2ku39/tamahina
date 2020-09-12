@@ -70,6 +70,9 @@ export default {
         twitter: faTwitter
       }
     }
+  },
+  head:{
+    title: 'イベント詳細'
   }
 }
 </script>

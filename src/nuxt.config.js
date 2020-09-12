@@ -16,6 +16,9 @@ export default {
         '@nuxtjs/dotenv'
     ],
     head: {
+        titleTemplate: (title) => {
+            return title ? `${title} | ヒナクラ` : 'ヒナクラ';
+        },
         meta: [
             {
                 name: 'viewport',

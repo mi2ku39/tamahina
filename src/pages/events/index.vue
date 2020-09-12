@@ -109,6 +109,9 @@ export default {
       setBackgroundColor: 'setBackgroundColor',
       setVisitIn: 'setVisitIn'
     })
+  },
+  head: {
+    title: 'events'
   }
 }
 </script>

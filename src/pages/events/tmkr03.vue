@@ -862,6 +862,9 @@ export default {
         soundCloud: faSoundcloud
       }
     }
+  },
+  head:{
+    title: 'タマクラ3'
   }
 }
 </script>
