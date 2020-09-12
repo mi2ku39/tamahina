@@ -35,7 +35,7 @@
             Shall we dance?
           </h1>
           <p>
-            いっしょにDJしよっか
+            タマクラ参加者募集中！
           </p>
           <div class="text-right">
             <tama-button to="/others" nuxt-link>
