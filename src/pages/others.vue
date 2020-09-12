@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center fade-in">
         <div class="col-12 col-lg-6">
           <img src="@/assets/img/hmlr_logo_n.png" class="w-100" style="margin-top: 60px;"/>
         </div>
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-right index-shadow-lb">
+    <div class="bg-white my-5 container fill-right index-shadow-lb slide-in-from-right">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-noto text-hi index-shadow-lb-sm">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-white fill-right mt-5 tmkr0-shadow-lb slide-in-from-left">
+    <div class="container bg-white fill-right mt-5 tmkr0-shadow-lb slide-in-from-right">
       <div class="row">
         <div class="col-12 text-center mb-3">
           <img src="@/assets/img/logos/tmkr00_logo.png"
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr0-shadow-rb slide-in-from-right py-3">
+    <div class="container bg-white fill-left mt-5 tmkr0-shadow-rb slide-in-from-left py-3">
       <div class="row">
         <div class="col-12 text-center">
           <h1 class="font-expletus text-strong tmkr0-shadow-rb-sm">

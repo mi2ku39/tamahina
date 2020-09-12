@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-white fill-right index-shadow-lb mt-5">
+    <div class="container bg-white fill-right index-shadow-lb mt-5 slide-in-from-right">
       <div class="row">
         <div class="col-12 col-lg-6 mb-3 pb-3">
           <h1 class="font-expletus text-strong index-shadow-lb-sm">

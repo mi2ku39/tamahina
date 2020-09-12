@@ -31,5 +31,17 @@ export default {
 
 .profile-socials {
   font-size: 1.5rem;
+
+  a {
+    transition: color 200ms;
+
+    &:link, &:visited {
+      color: rgba(102, 102, 102, 1);
+    }
+
+    &:hover {
+      color: rgba(0, 0, 0, 1);
+    }
+  }
 }
 </style>

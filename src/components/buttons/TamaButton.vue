@@ -36,7 +36,7 @@ export default {
   font-size: 1.2em;
   display: inline-block;
   padding: 8px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   text-decoration: none;
   overflow: hidden;
   border: 4px solid #000000;
@@ -66,7 +66,7 @@ export default {
   }
 
   &:hover {
-    color: #000000;
+    color: #000000 !important;
 
     &:before {
       right: 0;

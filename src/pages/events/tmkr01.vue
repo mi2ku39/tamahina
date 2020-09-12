@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-white fill-right mt-5 tmkr1-shadow-lb">
+    <div class="container bg-white fill-right mt-5 tmkr1-shadow-lb slide-in-from-right">
       <div class="row">
         <div class="col-12 text-center mb-3">
           <img src="@/assets/img/logos/tmkr01_logo.png"

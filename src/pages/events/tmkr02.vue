@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-white fill-right mt-5 tmkr2-shadow-lb">
+    <div class="container bg-white fill-right mt-5 tmkr2-shadow-lb slide-in-from-right">
       <div class="row">
         <div class="col-12 text-center mb-3">
           <img src="@/assets/img/logos/tmkr02_logo.png"
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr2-shadow-rb py-3">
+    <div class="container bg-white fill-left mt-5 tmkr2-shadow-rb py-3 slide-in-from-left">
       <div class="row">
         <div class="col-12">
           <div class="text-center">
