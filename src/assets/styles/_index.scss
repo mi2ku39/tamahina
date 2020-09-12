@@ -1,0 +1,19 @@
+@mixin shadow($offset_x: 0.5em, $offset_y: 0.5em, $blur:0, $color: #9E9E9E) {
+  filter: drop-shadow($offset_x $offset_y $blur $color);
+}
+
+.index-shadow-rb {
+  @include shadow;
+}
+
+.index-shadow-rb-sm {
+  @include shadow(.0625em, .0625em, 0, #BDBDBD);
+}
+
+.index-shadow-lb {
+  @include shadow(-.5em);
+}
+
+.index-shadow-lb-sm {
+  @include shadow(-.0625em, .0625em, 0, #BDBDBD);
+}

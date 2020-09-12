@@ -2,6 +2,31 @@ body {
   @extend .font-noto;
   @extend .text-md;
 
+  width: 100%;
+  margin: 0;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  transition: color 200ms;
+
+  &:link {
+    color: #03A9F4;
+  }
+
+  &:visited {
+    color: #9C27B0;
+  }
+
+  &:hover {
+    color: #E91E63;
+  }
+}
+
+.hidden-overflow-x {
+  overflow-x: hidden;
+
   background-image: url("~assets/img/shima.png");
   background-color: #FAFAFA;
   background-size: 10em;
