@@ -3,14 +3,30 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <dummy-image width="20em" height="20em" class="index-shadow-lb">
-            直近開催のフライヤー
-          </dummy-image>
+          <img src="@/assets/img/fliers/tmkr03.jpg" class="w-100 index-shadow-lb" alt="タマクラ3">
         </div>
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-left index-shadow-rb slide-in-from-left">
+    <div class="bg-white my-5 container fill-left index-shadow-lb slide-in-from-left">
+      <div class="row">
+        <div class="col-12 pb-3">
+          <h1 class="font-expletus text-hi index-shadow-rb-sm">
+            タマクラ3 開催！
+          </h1>
+          <p>
+            ── DJのタマゴ、躍如 ───
+          </p>
+          <div class="text-right">
+            <tama-button to="/events/tmkr03" nuxt-link>
+              show more
+            </tama-button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white my-5 container fill-right index-shadow-rb slide-in-from-right">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
@@ -28,7 +44,7 @@
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-right index-shadow-lb slide-in-from-right">
+    <div class="bg-white my-5 container fill-left index-shadow-lb slide-in-from-left">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-lb-sm">

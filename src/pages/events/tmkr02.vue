@@ -9,7 +9,7 @@
         </div>
 
         <div class="col-12 text-center">
-          ──DJのタマゴ、胎動───
+          ── DJのタマゴ、胎動 ───
         </div>
 
         <div class="col-12 text-center">
