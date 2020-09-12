@@ -1,7 +1,12 @@
 <template>
-  <nuxt-link class="tamabutton-container font-expletus" :to="to">
-    <slot/>
-  </nuxt-link>
+  <div>
+    <nuxt-link class="tamabutton-container font-expletus" :to="to" v-if="nuxtLink">
+      <slot/>
+    </nuxt-link>
+    <a :href="to" v-else class="tamabutton-container font-expletus" :target="target">
+      <slot/>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -11,6 +16,14 @@ export default {
     to: {
       type: String,
       required: true
+    },
+    nuxtLink: {
+      type: Boolean,
+      default: false
+    },
+    target: {
+      type: String,
+      default: '_self'
     }
   }
 }

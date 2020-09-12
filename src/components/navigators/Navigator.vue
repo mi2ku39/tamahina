@@ -19,7 +19,9 @@
         </nuxt-link>
       </div>
       <div>
-        others
+        <nuxt-link to="/others">
+          others
+        </nuxt-link>
       </div>
     </div>
   </div>
