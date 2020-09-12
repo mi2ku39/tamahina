@@ -24,6 +24,12 @@ export default {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
             }
+        ],
+        link: [
+            {
+                rel: 'stylesheet',
+                href: 'https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,700;1,700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+            }
         ]
     },
     modules: [
