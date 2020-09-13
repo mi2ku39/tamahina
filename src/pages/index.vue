@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="@/assets/img/fliers/tmkr03.jpg" class="index-flier index-shadow-lb" alt="タマクラ3">
+          <img src="@/assets/img/fliers/tmkr03.png" class="index-flier index-shadow-lb" alt="タマクラ3">
         </div>
       </div>
     </div>
