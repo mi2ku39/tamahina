@@ -27,10 +27,10 @@
             DAY 1: 9/11 22:00~
           </h2>
           <h2 class="text-hi my-0">
-            DAY 2: 9/12 22:00~
+            DAY 2: 9/12 22:30~
           </h2>
           <h2 class="text-hi mt-0">
-            DAY 3: 9/19 22:00~
+            DAY 3: 9/19 22:30~
           </h2>
 
           <h1 class="font-expletus text-strong tmkr3-shadow-lb-sm mb-0">
@@ -50,7 +50,11 @@
             & スタジオよもだ
           </h2>
           <h2 class="text-hi mt-0">
-            DAY 3: スタジオよもだ
+            DAY 3: <a href="https://www.twitch.tv/tamakura_hinakura" target="_blank">
+            Twitch
+            <fa :icon="fa.twitch"/>
+          </a>
+            & スタジオよもだ
           </h2>
 
           <h1 class="font-expletus text-strong tmkr3-shadow-lb-sm mb-0">
@@ -863,7 +867,7 @@ export default {
       }
     }
   },
-  head:{
+  head: {
     title: 'タマクラ3'
   }
 }
