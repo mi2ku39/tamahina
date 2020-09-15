@@ -27,11 +27,17 @@
 
     <div class="container fade-in">
       <div class="row align-items-center">
-        <div class="col-12 col-lg-6 mb-3 mb-lg-0 index-shadow-lb">
-          <img src="@/assets/img/about/a1.jpg" class="w-100"/>
+        <div class="col-12 col-lg-6 mb-3 index-shadow-lb">
+          <img src="@/assets/img/about/a1.png" class="w-100"/>
         </div>
-        <div class="col-12 col-lg-6 index-shadow-lb">
+        <div class="col-12 col-lg-6 mb-3 index-shadow-lb">
           <img src="@/assets/img/about/a2.png" class="w-100"/>
+        </div>
+        <div class="col-12 col-lg-6 mb-3 index-shadow-lb">
+          <img src="@/assets/img/about/a3.png" class="w-100"/>
+        </div>
+        <div class="col-12 col-lg-6 mb-3 index-shadow-lb">
+          <img src="@/assets/img/about/a4.png" class="w-100"/>
         </div>
       </div>
     </div>
