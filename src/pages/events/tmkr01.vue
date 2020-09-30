@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr1-shadow-rb py-3">
+    <div class="container bg-white fill-left mt-5 tmkr1-shadow-rb py-3 slide-in-from-left">
       <div class="row">
         <div class="col-12 text-center">
           <h1 class="font-expletus text-strong tmkr1-shadow-rb-sm">

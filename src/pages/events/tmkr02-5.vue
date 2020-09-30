@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr2_5-shadow-rb py-3 slide-in-from-right">
+    <div class="container bg-white fill-left mt-5 tmkr2_5-shadow-rb py-3 slide-in-from-left">
       <div class="row">
         <div class="col-12">
           <div class="text-center">
