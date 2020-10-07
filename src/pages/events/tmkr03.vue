@@ -679,7 +679,7 @@
                   鶴
                 </template>
                 <template v-slot:social>
-                  <a href="https://twitter.com/AmaNato0" target="_blank">
+                  <a href="https://twitter.com/crane_dantata" target="_blank">
                     <fa :icon="fa.twitter"/>
                   </a>
                 </template>
@@ -764,7 +764,7 @@
                   じっつ
                 </template>
                 <template v-slot:social>
-                  <a href="https://twitter.com/ji__1" target="_blank">
+                  <a href="https://twitter.com/jt__1" target="_blank">
                     <fa :icon="fa.twitter"/>
                   </a>
                 </template>
