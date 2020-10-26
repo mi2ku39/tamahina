@@ -16,7 +16,7 @@
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr00">
             <img src="@/assets/img/logos/tmkr00_logo.png"
-                 alt="tamaclub 0"
+                 alt="タマクラ0"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
@@ -24,7 +24,7 @@
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr01">
             <img src="@/assets/img/logos/tmkr01_logo.png"
-                 alt="tamaclub 1"
+                 alt="タマクラ1"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
@@ -32,7 +32,7 @@
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr02">
             <img src="@/assets/img/logos/tmkr02_logo.png"
-                 alt="tamaclub 2"
+                 alt="タマクラ2"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
@@ -40,7 +40,7 @@
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr02-5">
             <img src="@/assets/img/logos/tmkr02.5_logo.png"
-                 alt="tamaclub 2.5"
+                 alt="タマクラ2.5"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
@@ -48,15 +48,17 @@
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr03">
             <img src="@/assets/img/logos/tmkr03_logo.png"
-                 alt="tamaclub 3"
+                 alt="タマクラ3"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr_nazo.png"
-               alt="?"
-               class="img-fluid"/>
+          <nuxt-link to="/events/kmkr">
+            <img src="@/assets/img/logos/kmkr.png"
+                 alt="カメクラ"
+                 class="img-fluid"/>
+          </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
