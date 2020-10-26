@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="@/assets/img/fliers/tmkr03.png" class="index-flier index-shadow-lb" alt="タマクラ3">
+          <img src="@/assets/img/fliers/kmkr_flier.jpg" class="index-flier index-shadow-lb" alt="タマクラ3">
         </div>
       </div>
     </div>
@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            タマクラ3 開催！
+            カメクラ 開催！
           </h1>
           <p>
-            ── DJのタマゴ、躍如 ───
+            ── DJのタマゴ、仮装 ───
           </p>
           <div class="text-right">
-            <tama-button to="/events/tmkr03" nuxt-link>
+            <tama-button to="/events/kmkr" nuxt-link>
               show more
             </tama-button>
           </div>
