@@ -62,9 +62,11 @@
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr_nazo.png"
-               alt="?"
-               class="img-fluid"/>
+          <nuxt-link to="/events/tmkr03-5">
+            <img src="@/assets/img/logos/tmkr03-5_logo.png"
+                 alt="タマクラ3.5"
+                 class="img-fluid"/>
+          </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
