@@ -522,7 +522,7 @@ export default {
     }
   },
   head: {
-    title: 'タマクラ3'
+    title: 'タマクラ3.5'
   }
 }
 </script>
