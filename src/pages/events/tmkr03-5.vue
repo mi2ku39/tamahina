@@ -49,16 +49,11 @@
           <h1 class="font-expletus text-strong tmkr3-5-shadow-lb-sm mb-0">
             参加表明
           </h1>
-          <h2 class="text-hi my-0">
+          <h2 class="text-hi mt-0">
             <a href="https://twipla.jp/events/460798" target="_blank">
               twipla
             </a>
           </h2>
-          <p style="color: #f44336;">
-            ※ オフライン会場へ参加される場合は必ずtwiplaで参加表明をお願い致します。<br>
-            参加表明がなかった場合、ご入場をお断りする場合がございます。
-          </p>
-
         </div>
       </div>
     </div>
@@ -249,6 +244,25 @@
                   </template>
                   <template v-slot:poem>
                     別に何を流してもいいのだろう？(錬鉄の英雄並感)
+                  </template>
+                </dj-profile>
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <img src="@/assets/img/social_icons/tmkr03-5/DAY1DJs/DAY1_9.JPG"
+                         alt="Ma9μ"
+                         class="img-icon img-round">
+                  </template>
+                  <template v-slot:name>
+                    Ma9μ
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/maag2nd" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                  <template v-slot:poem>
+                    噂のタマクラさんにお邪魔することができてうれしいです
                   </template>
                 </dj-profile>
 
@@ -448,7 +462,7 @@
                 </template>
               </dj-profile>
 
-              <dj-profile>
+              <dj-profile class="mb-3">
                 <template v-slot:icon>
                   <img src="@/assets/img/social_icons/tmkr03-5/DAY2DJs/DAY2_9.JPG"
                        alt="じっつ"
@@ -467,7 +481,7 @@
                 </template>
               </dj-profile>
 
-              <dj-profile>
+              <dj-profile class="mb-3">
                 <template v-slot:icon>
                   <img src="@/assets/img/social_icons/tmkr03-5/DAY2DJs/DAY2_10.png"
                        alt="shock_Pan"
