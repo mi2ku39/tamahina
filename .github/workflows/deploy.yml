@@ -1,0 +1,41 @@
+name: Build And Deploy
+on:
+  push:
+    branches:
+      - production
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+
+      - name: Build Project
+          run: |
+            cd src
+            npm ci
+            npm run build
+
+      - name: Commit Project
+        env:
+          TZ: 'Asia/Tokyo'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=`date +"%Y%m%d"`
+          git add *
+          git commit -m "release build on $DATE"
+
+      - name: Create Release Branch
+        env:
+          TZ: 'Asia/Tokyo'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=`date +"%Y%m%d"`
+          BRANCH_NAME="release_$DATE"
+          git checkout -b "$BRANCH_NAME"
+          git push origin "$BRANCH_NAME"
