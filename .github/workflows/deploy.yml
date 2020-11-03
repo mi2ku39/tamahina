@@ -36,15 +36,6 @@ jobs:
           npm ci
           npm run build
 
-      - name: Commit Project
-        env:
-          TZ: 'Asia/Tokyo'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          DATE=`date +"%Y%m%d"`
-          git add *
-          git commit -m "release build on $DATE"
-
       - name: Create Release Branch and Deploy to GhostServer
         env:
           TZ: 'Asia/Tokyo'
@@ -53,5 +44,7 @@ jobs:
           DATE=`date +"%Y%m%d"`
           BRANCH_NAME="release/release_$DATE_${{ env.GITHUB_RUN_NUMBER }}"
           git checkout -b "$BRANCH_NAME"
+          git add *
+          git commit -m "release build on $DATE"
           git push origin "$BRANCH_NAME"
           ssh ghostserver@ghostserver.jp "cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log"
