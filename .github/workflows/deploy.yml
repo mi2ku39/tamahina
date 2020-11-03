@@ -15,31 +15,36 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOST }}
+
+      - name: Set user name
+        env:
+          TZ: 'Asia/Tokyo'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "bot@example.com"
+          git config --global user.name "GitHub Actions ${{ env.GITHUB_RUN_NUMBER }}"
+
       - name: Build Project
         run: |
           cd src
           npm ci
           npm run build
 
-      - name: Set Email and Name
-        run: |
-          git config --global user.email "noreply@example.com"
-          git config --global user.name "GitHub Actions"
-
-      - name: Commit Project
+      - name: Create Release Branch and Deploy to GhostServer
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_NUMBER: ${{ env.GITHUB_RUN_NUMBER }}
         run: |
           DATE=`date +"%Y%m%d"`
+          BRANCH_NAME="release/release_$DATE_$RUN_NUMBER"
+          git checkout -b "$BRANCH_NAME"
           git add *
           git commit -m "release build on $DATE"
-
-      - name: Create Release Branch
-        env:
-          TZ: 'Asia/Tokyo'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          BRANCH_NAME="release/release_$DATE"
-          git checkout -b "$BRANCH_NAME"
           git push origin "$BRANCH_NAME"
+          ssh ghostserver@ghostserver.jp cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log
