@@ -57,4 +57,4 @@ jobs:
 
       - name: Deploy to GhostServer
         run: |
-          ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}} && docker-compose -f docker-compose.prod.yml up --build -d"
+          ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout . && git checkout ${{needs.build.outputs.branch_name}} && docker-compose -f docker-compose.prod.yml up --build -d"
