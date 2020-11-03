@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - production
+      - setup/autoDeploy
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,6 +15,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14'
+
+      - name: Install SSH key
+          uses: shimataro/ssh-key-action@v2
+          with:
+            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            known_hosts: ${{ secrets.KNOWN_HOST }}
 
       - name: Build Project
         run: |
@@ -30,11 +37,13 @@ jobs:
           git add *
           git commit -m "release build on $DATE"
 
-      - name: Create Release Branch
+      - name: Create Release Branch and Deploy to GhostServer
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          BRANCH_NAME="release/release_$DATE"
+          DATE=`date +"%Y%m%d"`
+          BRANCH_NAME="release/release_$DATE_${{ env.GITHUB_RUN_NUMBER }}"
           git checkout -b "$BRANCH_NAME"
           git push origin "$BRANCH_NAME"
+          ssh ghostserver@ghostserver.jp "cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log"
