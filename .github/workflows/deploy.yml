@@ -71,7 +71,7 @@ jobs:
         uses: technote-space/workflow-conclusion-action@v1
 
       - name: Discord Message Success Notify
-        if: ${{ env.WORKFLOW_CONCLUSION == "success" }}
+        if: ${{ env.WORKFLOW_CONCLUSION == 'success' }}
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
@@ -81,7 +81,7 @@ jobs:
           args: "デプロイ完了！！ https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}"
 
       - name: Discord Message Success Notify
-        if: ${{ env.WORKFLOW_CONCLUSION != "success" }}
+        if: ${{ env.WORKFLOW_CONCLUSION != 'success' }}
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
