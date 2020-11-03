@@ -307,18 +307,27 @@ export default {
       title: 'タマクラ',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: 'タマクラ',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/tmkr01_logo.png',
+          content: `${process.env.BASE_URL}/img/logos/tmkr01_logo.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '── DJのヒナ、生誕 ───',
         }
