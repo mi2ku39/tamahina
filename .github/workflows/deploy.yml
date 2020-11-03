@@ -47,4 +47,4 @@ jobs:
           git add *
           git commit -m "release build on $DATE"
           git push origin "$BRANCH_NAME"
-          ssh ghostserver@ghostserver.jp "cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log"
+          ssh ghostserver@ghostserver.jp cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log
