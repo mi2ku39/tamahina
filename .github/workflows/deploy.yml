@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      branch_name: ${{ steps.create_branch.outputs.branch_name }}
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
@@ -15,19 +17,13 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install SSH key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: ${{ secrets.KNOWN_HOST }}
-
       - name: Set user name
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "bot@example.com"
-          git config --global user.name "GitHub Actions ${{ env.GITHUB_RUN_NUMBER }}"
+          git config --global user.name "GitHub Actions $GITHUB_RUN_NUMBER"
 
       - name: Build Project
         run: |
@@ -35,16 +31,30 @@ jobs:
           npm ci
           npm run build
 
-      - name: Create Release Branch and Deploy to GhostServer
+      - name: Create Release Branch
+        id: create_branch
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RUN_NUMBER: ${{ env.GITHUB_RUN_NUMBER }}
         run: |
           DATE=`date +"%Y%m%d"`
-          BRANCH_NAME="release/release_${DATE}_${RUN_NUMBER}"
+          BRANCH_NAME="release/release_${DATE}_${GITHUB_RUN_NUMBER}"
           git checkout -b "$BRANCH_NAME"
           git add *
-          git commit -m "release build on $DATE"
+          git commit -m "release build on ${DATE} #${GITHUB_RUN_NUMBER}"
           git push origin "$BRANCH_NAME"
-          ssh ghostserver@ghostserver.jp cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log
+          echo "::set-output name=branch_name::${BRANCH_NAME}"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOST }}
+
+      - name: Deploy to GhostServer
+        run: |
+          ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}} && docker-compose -f docker-compose.prod.yml up --build -d"
