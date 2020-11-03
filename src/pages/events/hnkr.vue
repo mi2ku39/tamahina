@@ -295,14 +295,27 @@ export default {
       title: 'イベント詳細',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:title',
           property: 'og:title',
           content: '⚡大17代の卒業祝いアニクラ',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '@/assets/img/logos/hnkr.png',
+          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '── DJのヒナ、飛翔 ───',
         }

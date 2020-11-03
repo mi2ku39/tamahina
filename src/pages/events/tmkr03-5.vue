@@ -540,18 +540,27 @@ export default {
       title: 'タマクラ3.5',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: 'タマクラ3.5',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/tmkr03-5_logo.png',
+          content: `${process.env.BASE_URL}/img/logos/tmkr03-5_logo.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '── DJのヒナ、参集 ───',
         }

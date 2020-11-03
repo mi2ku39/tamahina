@@ -147,18 +147,27 @@ export default {
       title: 'others',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: 'others',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/hnkr.png',
+          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '新規参加者募集中！今後のタマクラ参加者を募集中！未経験者大歓迎！',
         }

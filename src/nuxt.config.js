@@ -2,6 +2,7 @@ require('dotenv').config();
 const {NODE_ENV} = process.env;
 
 export default {
+    mode: 'universal',
     env: {
         NODE_ENV
     },
@@ -16,6 +17,9 @@ export default {
         '@nuxtjs/dotenv'
     ],
     head: {
+        htmlAttrs: {
+            prefix: 'og: http://ogp.me/ns#'
+        },
         titleTemplate: (title) => {
             return title ? `${title} | ヒナクラ` : 'ヒナクラ';
         },
@@ -25,20 +29,44 @@ export default {
                 content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
             },
             {
-                property: 'og:url',
-                content: 'hnkr.ghostserver.jp',
-            },
-            {
+                hid: 'og:site_name',
                 property: 'og:site_name',
                 content: 'ヒナクラ',
             },
             {
+                hid: 'twitter:card',
                 name: 'twitter:card',
                 content: 'Summary Card'
             },
             {
+                hid: 'twitter:site',
                 name: 'twitter:site',
                 content: 'hinakura_202103'
+            },
+            {
+                hid: 'og:url',
+                property: 'og:url',
+                content: `${process.env.BASE_URL}`,
+            },
+            {
+                hid: 'og:type',
+                property: 'og:type',
+                content: 'website',
+            },
+            {
+                hid: 'og:title',
+                property: 'og:title',
+                content: '⚡大17代の卒業祝いアニクラ',
+            },
+            {
+                hid: 'og:image',
+                property: 'og:image',
+                content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
+            },
+            {
+                hid: 'og:description',
+                property: 'og:description',
+                content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！',
             }
         ],
         link: [

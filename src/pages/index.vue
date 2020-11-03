@@ -76,6 +76,10 @@ export default {
     return {
       meta: [
         {
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`
+        },
+        {
           property: 'og:type',
           content: 'website',
         },
@@ -85,7 +89,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: '/img/logos/hnkr.png',
+          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
         },
         {
           property: 'og:description',
