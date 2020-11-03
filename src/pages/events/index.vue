@@ -114,8 +114,24 @@ export default {
       setVisitIn: 'setVisitIn'
     })
   },
-  head: {
-    title: 'events'
+  head() {
+    return {
+      title: 'events',
+      meta: [
+        {
+          property: 'og:title',
+          content: 'イベント一覧',
+        },
+        {
+          property: 'og:image',
+          content: '@/assets/img/logos/hnkr.png',
+        },
+        {
+          property: 'og:description',
+          content: '開催されたイベントの一覧です。',
+        }
+      ]
+    }
   }
 }
 </script>

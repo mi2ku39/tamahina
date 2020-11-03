@@ -867,8 +867,28 @@ export default {
       }
     }
   },
-  head: {
-    title: 'タマクラ3'
+  head() {
+    return {
+      title: 'タマクラ3',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr03_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、躍如 ───',
+        }
+      ]
+    }
   }
 }
 </script>

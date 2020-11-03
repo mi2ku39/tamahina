@@ -535,8 +535,28 @@ export default {
       }
     }
   },
-  head: {
-    title: 'タマクラ3.5'
+  head() {
+    return {
+      title: 'タマクラ3.5',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ3.5',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr03-5_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、参集 ───',
+        }
+      ]
+    }
   }
 }
 </script>

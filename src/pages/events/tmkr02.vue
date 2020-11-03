@@ -675,8 +675,28 @@ export default {
       }
     }
   },
-  head:{
-    title: 'タマクラ2'
+  head() {
+    return {
+      title: 'タマクラ2',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ2',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr02_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、胎動 ───',
+        }
+      ]
+    }
   }
 }
 </script>
