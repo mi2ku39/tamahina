@@ -119,14 +119,27 @@ export default {
       title: 'events',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:title',
           property: 'og:title',
-          content: 'イベント一覧',
+          content: 'events',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '@/assets/img/logos/hnkr.png',
+          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '開催されたイベントの一覧です。',
         }

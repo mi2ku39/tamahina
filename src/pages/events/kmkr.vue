@@ -357,18 +357,27 @@ export default {
       title: 'カメクラ',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: 'カメクラ',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/kmkr.png',
+          content: `${process.env.BASE_URL}/img/logos/kmkr.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '── DJのヒナ、仮装 ───',
         }

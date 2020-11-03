@@ -872,18 +872,27 @@ export default {
       title: 'タマクラ3',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
-          content: 'タマクラ',
+          content: 'タマクラ3',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/tmkr03_logo.png',
+          content: `${process.env.BASE_URL}/img/logos/tmkr03_logo.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: '── DJのヒナ、躍如 ───',
         }
