@@ -44,6 +44,6 @@ jobs:
           BRANCH_NAME="release/release_${DATE}_${GITHUB_RUN_NUMBER}"
           git checkout -b "$BRANCH_NAME"
           git add *
-          git commit -m "release build on $DATE"
+          git commit -m "release build on ${DATE} #${GITHUB_RUN_NUMBER}"
           git push origin "$BRANCH_NAME"
-          ssh ghostserver@ghostserver.jp cd server/tamahina && git checkout -b $BRANCH_NAME origin/$BRANCH_NAME && git log
+          ssh ghostserver@ghostserver.jp cd server/tamahina && git fetch && git checkout $BRANCH_NAME && git log
