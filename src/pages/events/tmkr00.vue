@@ -139,8 +139,28 @@ export default {
       }
     }
   },
-  head:{
-    title: 'タマクラ0'
+  head() {
+    return {
+      title: 'タマクラ0',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ0',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr00_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: 'タマクラ0のイベントページです。',
+        }
+      ]
+    }
   }
 }
 </script>

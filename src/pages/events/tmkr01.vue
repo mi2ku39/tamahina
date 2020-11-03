@@ -302,8 +302,28 @@ export default {
       }
     }
   },
-  head:{
-    title: 'タマクラ'
+  head() {
+    return {
+      title: 'タマクラ',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr01_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、生誕 ───',
+        }
+      ]
+    }
   }
 }
 </script>
