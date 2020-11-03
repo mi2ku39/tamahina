@@ -66,6 +66,8 @@ jobs:
 
   notify:
     runs-on: ubuntu-latest
+    if: always()
+    needs: [ build, deploy ]
     steps:
       - name: Workflow Conclusion Action
         uses: technote-space/workflow-conclusion-action@v1
@@ -78,7 +80,7 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#4CAF50"
           username: "GitHub Actions"
-          args: "デプロイ完了！！ https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}"
+          args: デプロイ完了！！ https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}
 
       - name: Discord Message Success Notify
         if: ${{ env.WORKFLOW_CONCLUSION != 'success' }}
@@ -88,4 +90,4 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#f44336"
           username: "GitHub Actions"
-          args: "デプロイ失敗 https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}"
+          args: デプロイ失敗 https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}
