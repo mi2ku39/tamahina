@@ -94,18 +94,27 @@ export default {
       title: 'タマクラ',
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL / this.$route.fullPath}`,
+        },
+        {
+          hid: 'og:type',
           property: 'og:type',
           content: 'article',
         },
         {
+          hid: 'og:title',
           property: 'og:title',
           content: 'about',
         },
         {
+          hid: 'og:image',
           property: 'og:image',
-          content: '/img/logos/hnkr.png',
+          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
         },
         {
+          hid: 'og:description',
           property: 'og:description',
           content: 'タマクラ / ヒナクラ とは？⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！' +
               'またヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！',
