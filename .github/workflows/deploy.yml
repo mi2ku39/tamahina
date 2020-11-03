@@ -40,7 +40,6 @@ jobs:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          DATE=`date +"%Y%m%d"`
-          BRANCH_NAME="release_$DATE"
+          BRANCH_NAME="release/release_$DATE"
           git checkout -b "$BRANCH_NAME"
           git push origin "$BRANCH_NAME"
