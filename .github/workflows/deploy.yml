@@ -26,6 +26,8 @@ jobs:
           git config --global user.name "GitHub Actions $GITHUB_RUN_NUMBER"
 
       - name: Build Project
+        env:
+          BASE_URL: https://hnkr.ghostserver.jp
         run: |
           cd src
           npm ci
