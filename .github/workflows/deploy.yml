@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - production
-      - setup/autoDeploy
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,9 +39,10 @@ jobs:
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_NUMBER: ${{ env.GITHUB_RUN_NUMBER }}
         run: |
           DATE=`date +"%Y%m%d"`
-          BRANCH_NAME="release/release_$DATE_${{ env.GITHUB_RUN_NUMBER }}"
+          BRANCH_NAME="release/release_$DATE_$RUN_NUMBER"
           git checkout -b "$BRANCH_NAME"
           git add *
           git commit -m "release build on $DATE"
