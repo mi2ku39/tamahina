@@ -55,6 +55,11 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.KNOWN_HOST }}
 
-      - name: Deploy to GhostServer
-        run: |
-          ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}} && docker-compose -f docker-compose.prod.yml up --build -d"
+      - name: Stop Containers
+        run: ssh ghostserver@ghostserver.jp "cd server/tamahina && docker-compo -f docker-compose.prod.yml stop"
+
+      - name: Checkout Code
+        run: ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}}
+
+      - name: Up Containers
+        run: ssh ghostserver@ghostserver.jp "cd server/tamahina && docker-compo -f docker-compose.prod.yml up --build -d"
