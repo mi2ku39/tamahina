@@ -25,10 +25,9 @@ jobs:
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RUN_ID: ${{ env.GITHUB_RUN_ID }}
         run: |
           git config --global user.email "bot@example.com"
-          git config --global user.name "GitHub Actions $RUN_ID"
+          git config --global user.name "GitHub Actions $GITHUB_RUN_NUMBER"
 
       - name: Build Project
         run: |
@@ -40,10 +39,9 @@ jobs:
         env:
           TZ: 'Asia/Tokyo'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RUN_ID: ${{ env.GITHUB_RUN_ID }}
         run: |
           DATE=`date +"%Y%m%d"`
-          BRANCH_NAME="release/release_${DATE}_${RUN_ID}"
+          BRANCH_NAME="release/release_${DATE}_${GITHUB_RUN_NUMBER}"
           git checkout -b "$BRANCH_NAME"
           git add *
           git commit -m "release build on $DATE"
