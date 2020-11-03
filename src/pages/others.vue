@@ -142,8 +142,28 @@ export default {
       setVisitIn: 'setVisitIn'
     })
   },
-  head: {
-    title: 'others'
+  head() {
+    return {
+      title: 'others',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'others',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/hnkr.png',
+        },
+        {
+          property: 'og:description',
+          content: '新規参加者募集中！今後のタマクラ参加者を募集中！未経験者大歓迎！',
+        }
+      ]
+    }
   },
   computed: {
     fa: function () {
