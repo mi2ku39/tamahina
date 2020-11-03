@@ -72,6 +72,28 @@ import {mapMutations} from "vuex";
 export default {
   name: "index",
   components: {TamaButton, DummyImage},
+  head() {
+    return {
+      meta: [
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:title',
+          content: '⚡大17代の卒業祝いアニクラ',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/hnkr.png',
+        },
+        {
+          property: 'og:description',
+          content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！',
+        }
+      ]
+    }
+  },
   mounted() {
     this.setVisitIn(this.$route.name);
     this.setBackgroundColor('#FAFAFA');

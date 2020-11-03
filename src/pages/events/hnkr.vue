@@ -290,8 +290,24 @@ export default {
       }
     }
   },
-  head: {
-    title: 'イベント詳細'
+  head() {
+    return {
+      title: 'イベント詳細',
+      meta: [
+        {
+          property: 'og:title',
+          content: '⚡大17代の卒業祝いアニクラ',
+        },
+        {
+          property: 'og:image',
+          content: '@/assets/img/logos/hnkr.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、飛翔 ───',
+        }
+      ]
+    }
   }
 }
 </script>

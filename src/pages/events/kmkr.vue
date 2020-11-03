@@ -352,8 +352,28 @@ export default {
       }
     }
   },
-  head: {
-    title: 'カメクラ'
+  head() {
+    return {
+      title: 'カメクラ',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'カメクラ',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/kmkr.png',
+        },
+        {
+          property: 'og:description',
+          content: '── DJのヒナ、仮装 ───',
+        }
+      ]
+    }
   }
 }
 </script>
