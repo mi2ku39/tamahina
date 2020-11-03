@@ -59,7 +59,7 @@ jobs:
         run: ssh ghostserver@ghostserver.jp "cd server/tamahina && docker-compose -f docker-compose.prod.yml stop"
 
       - name: Checkout Code
-        run: ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}}
+        run: ssh ghostserver@ghostserver.jp "cd server/tamahina && git fetch && git checkout ${{needs.build.outputs.branch_name}}"
 
       - name: Up Containers
         run: ssh ghostserver@ghostserver.jp "cd server/tamahina && docker-compose -f docker-compose.prod.yml up --build -d"
