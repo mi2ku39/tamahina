@@ -148,8 +148,28 @@ export default {
       }
     }
   },
-  head: {
-    title: 'タマクラ2.5'
+  head() {
+    return {
+      title: 'タマクラ2.5',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article',
+        },
+        {
+          property: 'og:title',
+          content: 'タマクラ2.5',
+        },
+        {
+          property: 'og:image',
+          content: '/img/logos/tmkr02.5_logo.png',
+        },
+        {
+          property: 'og:description',
+          content: 'ゆるますさん主催オンラインアニクラ大型フェス「Wave Clib Festival」にタマクラも参戦！',
+        }
+      ]
+    }
   }
 }
 </script>

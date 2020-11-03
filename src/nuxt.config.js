@@ -23,6 +23,22 @@ export default {
             {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+            },
+            {
+                property: 'og:url',
+                content: 'hnkr.ghostserver.jp',
+            },
+            {
+                property: 'og:site_name',
+                content: 'ヒナクラ',
+            },
+            {
+                name: 'twitter:card',
+                content: 'Summary Card'
+            },
+            {
+                name: 'twitter:site',
+                content: 'hinakura_202103'
             }
         ],
         link: [
