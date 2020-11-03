@@ -36,7 +36,7 @@ export default {
             {
                 hid: 'twitter:card',
                 name: 'twitter:card',
-                content: 'Summary Card'
+                content: 'summary'
             },
             {
                 hid: 'twitter:site',
