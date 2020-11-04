@@ -153,6 +153,16 @@ export default {
       title: 'タマクラ2.5',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'タマクラ2.5 | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'ゆるますさん主催オンラインアニクラ大型フェス「Wave Clib Festival」にタマクラも参戦！'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,

@@ -76,6 +76,16 @@ export default {
     return {
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'ヒナクラ | ⚡大17代の卒業祝いアニクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！'
+        },
+        {
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`
         },
