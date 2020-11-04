@@ -540,6 +540,19 @@ export default {
       title: 'タマクラ3.5',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'タマクラ3.5 | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '── DJのタマゴ、参集 ─── 「今回はオンライン配信オンリーです」' +
+              'オタクたちが大暴れ！アニクラってなに？って人にオススメの' +
+              '初心者向けノンレギュイベント！#ヒナクラ に参加するオタクが練習をする配信だよ' +
+              'アニクラ初見？大丈夫！DJもほぼ初心者！ただし、熱意とセトリは"本物"'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,

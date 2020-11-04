@@ -144,6 +144,16 @@ export default {
       title: 'タマクラ0',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'タマクラ0 | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'タマクラ0のイベントページです。'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,

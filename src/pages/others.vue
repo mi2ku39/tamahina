@@ -147,6 +147,16 @@ export default {
       title: 'others',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'others | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '新規参加者募集中！今後のタマクラ参加者を募集中！未経験者大歓迎！'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,

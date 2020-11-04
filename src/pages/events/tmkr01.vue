@@ -307,6 +307,16 @@ export default {
       title: 'タマクラ',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'タマクラ | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '── DJのヒナ、生誕 ───'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,
