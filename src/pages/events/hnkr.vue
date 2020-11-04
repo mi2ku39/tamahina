@@ -295,6 +295,18 @@ export default {
       title: 'イベント詳細',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'ヒナクラ | ⚡大17代の卒業祝いアニクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '── DJのヒナ、飛翔 ─── 「⚡大の変な奴らの卒業祝い」という名目で' +
+              'オタクたちが酒入れながら大はしゃぎ！アニクラってなに？って人にオススメの' +
+              '初心者向けノンレギュイベント！リアルアニクラ初見？大丈夫！DJもほぼ初心者！ただし、熱意とセトリは"本物"'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,

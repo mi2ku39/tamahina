@@ -29,6 +29,16 @@ export default {
                 content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
             },
             {
+                hid: 'title',
+                name: 'title',
+                content: 'ヒナクラ | ⚡大17代の卒業祝いアニクラ'
+            },
+            {
+                hid: 'description',
+                name: 'description',
+                content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！'
+            },
+            {
                 hid: 'og:site_name',
                 property: 'og:site_name',
                 content: 'ヒナクラ',
@@ -56,7 +66,7 @@ export default {
             {
                 hid: 'og:title',
                 property: 'og:title',
-                content: '⚡大17代の卒業祝いアニクラ',
+                content: 'ヒナクラ | ⚡大17代の卒業祝いアニクラ',
             },
             {
                 hid: 'og:image',

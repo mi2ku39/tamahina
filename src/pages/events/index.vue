@@ -119,6 +119,16 @@ export default {
       title: 'events',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'events | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '開催されたイベントの一覧です。'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,
@@ -131,7 +141,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'events',
+          content: 'events | ヒナクラ',
         },
         {
           hid: 'og:image',

@@ -357,6 +357,19 @@ export default {
       title: 'カメクラ',
       meta: [
         {
+          hid: 'title',
+          name: 'title',
+          content: 'カメクラ | ヒナクラ'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: '── DJのタマゴ、仮装 ───　「お面被ってアニクラしたら面白くね？」という名目で\n' +
+              'オタクたちが大暴れ！アニクラってなに？って人にオススメの' +
+              '初心者向けノンレギュイベント！#ヒナクラ に参加するオタクが練習をする配信だよ' +
+              'アニクラ初見？大丈夫！DJもほぼ初心者！ただし、熱意とセトリは"本物"'
+        },
+        {
           hid: 'og:url',
           property: 'og:url',
           content: `${process.env.BASE_URL / this.$route.fullPath}`,
@@ -369,7 +382,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'カメクラ',
+          content: 'カメクラ | ヒナクラ',
         },
         {
           hid: 'og:image',
