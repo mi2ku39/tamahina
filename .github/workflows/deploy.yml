@@ -74,22 +74,10 @@ jobs:
       - name: Workflow Conclusion Action
         uses: technote-space/workflow-conclusion-action@v1
 
-      - name: Discord Message Success Notify
-        if: ${{ env.WORKFLOW_CONCLUSION == 'success' }}
-        uses: appleboy/discord-action@0.0.3
+      - uses: sarisia/actions-status-discord@v1
+        name: Notification for Disocord
+        if: always()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         with:
-          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#4CAF50"
-          username: "GitHub Actions"
-          args: デプロイ完了！！ https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}
-
-      - name: Discord Message Success Notify
-        if: ${{ env.WORKFLOW_CONCLUSION != 'success' }}
-        uses: appleboy/discord-action@0.0.3
-        with:
-          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#f44336"
-          username: "GitHub Actions"
-          args: デプロイ失敗 https://github.com/DenpaGhost/tamahina/actions/runs/${{ env.GITHUB_ACTION }}
+          status: ${{ env.WORKFLOW_CONCLUSION }}
