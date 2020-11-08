@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="@/assets/img/fliers/kmkr_flier.jpg" class="index-flier index-shadow-lb" alt="タマクラ3">
+          <img src="/img/fliers/tmkr03-5.jpg" class="index-flier index-shadow-lb" alt="タマクラ3.5">
         </div>
       </div>
     </div>
@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            カメクラ 開催！
+            タマクラ3.5 開催！
           </h1>
           <p>
-            ── DJのタマゴ、仮装 ───
+            ── DJのタマゴ、参集 ───
           </p>
           <div class="text-right">
-            <tama-button to="/events/kmkr" nuxt-link>
+            <tama-button to="/events/tmkr03-5" nuxt-link>
               show more
             </tama-button>
           </div>
@@ -95,7 +95,7 @@ export default {
         },
         {
           property: 'og:title',
-          content: '⚡大17代の卒業祝いアニクラ',
+          content: 'ヒナクラ | ⚡大17代の卒業祝いアニクラ',
         },
         {
           property: 'og:image',
@@ -104,7 +104,12 @@ export default {
         {
           property: 'og:description',
           content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！',
-        }
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image'
+        },
       ]
     }
   },
