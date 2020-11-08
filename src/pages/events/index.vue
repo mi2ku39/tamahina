@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr00">
-            <img src="@/assets/img/logos/tmkr00_logo.png"
+            <img src="/img/logos/tmkr00_logo.png"
                  alt="タマクラ0"
                  class="img-fluid"/>
           </nuxt-link>
@@ -23,7 +23,7 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr01">
-            <img src="@/assets/img/logos/tmkr01_logo.png"
+            <img src="/img/logos/tmkr01_logo.png"
                  alt="タマクラ1"
                  class="img-fluid"/>
           </nuxt-link>
@@ -31,7 +31,7 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr02">
-            <img src="@/assets/img/logos/tmkr02_logo.png"
+            <img src="/img/logos/tmkr02_logo.png"
                  alt="タマクラ2"
                  class="img-fluid"/>
           </nuxt-link>
@@ -39,7 +39,7 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr02-5">
-            <img src="@/assets/img/logos/tmkr02.5_logo.png"
+            <img src="/img/logos/tmkr02.5_logo.png"
                  alt="タマクラ2.5"
                  class="img-fluid"/>
           </nuxt-link>
@@ -47,7 +47,7 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr03">
-            <img src="@/assets/img/logos/tmkr03_logo.png"
+            <img src="/img/logos/tmkr03_logo.png"
                  alt="タマクラ3"
                  class="img-fluid"/>
           </nuxt-link>
@@ -55,7 +55,7 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/kmkr">
-            <img src="@/assets/img/logos/kmkr.png"
+            <img src="/img/logos/kmkr.png"
                  alt="カメクラ"
                  class="img-fluid"/>
           </nuxt-link>
@@ -63,34 +63,34 @@
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr03-5">
-            <img src="@/assets/img/logos/tmkr03-5_logo.png"
+            <img src="/img/logos/tmkr03-5_logo.png"
                  alt="タマクラ3.5"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr_nazo.png"
+          <img src="/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr_nazo.png"
+          <img src="/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="@/assets/img/logos/tmkr_nazo.png"
+          <img src="/img/logos/tmkr_nazo.png"
                alt="?"
                class="img-fluid"/>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/hnkr">
-            <img src="@/assets/img/logos/hnkr.png"
-                 alt="hinaclub"
+            <img src="/img/logos/hnkr.png"
+                 alt="ヒナクラ"
                  class="img-fluid"/>
           </nuxt-link>
         </div>
