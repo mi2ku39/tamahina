@@ -51,7 +51,7 @@ export default {
             {
                 hid: 'twitter:site',
                 name: 'twitter:site',
-                content: 'hinakura_202103'
+                content: '@hinakura_202103'
             },
             {
                 hid: 'og:url',
