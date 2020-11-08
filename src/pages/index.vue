@@ -99,7 +99,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/hnkr.png`,
+          content: `${process.env.BASE_URL}/img/fliers/tmkr03-5.jpg`,
         },
         {
           property: 'og:description',
