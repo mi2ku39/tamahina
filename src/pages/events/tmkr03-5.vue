@@ -159,15 +159,15 @@
                          class="img-icon img-round">
                   </template>
                   <template v-slot:name>
-                    咲空
+                    ルリトラ
                   </template>
                   <template v-slot:social>
-                    <a href="https://twitter.com/s_sakLa_P39" target="_blank">
+                    <a href="https://twitter.com/murabitoa3714" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </template>
                   <template v-slot:poem>
-                    懲りずにアイマスくんやります
+                    自我、強めました
                   </template>
                 </dj-profile>
 
