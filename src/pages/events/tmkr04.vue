@@ -785,7 +785,7 @@ export default {
   },
   head() {
     return {
-      title: 'タマクラ3.5',
+      title: 'タマクラ4',
       meta: [
         {
           hid: 'title',
