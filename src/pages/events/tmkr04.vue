@@ -818,7 +818,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/tmkr4_logo.png`,
+          content: `${process.env.BASE_URL}/img/logos/tmkr04_logo.png`,
         },
         {
           hid: 'og:description',
