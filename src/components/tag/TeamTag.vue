@@ -17,6 +17,10 @@ export default {
     white: {
       type: Boolean,
       default: false
+    },
+    blue: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
@@ -32,6 +36,8 @@ export default {
         return '#f44336';
       } else if (this.white) {
         return '#FFFFFF';
+      } else if (this.blue) {
+        return '#03A9F4';
       } else {
         return '#FFFFFF';
       }
@@ -39,6 +45,8 @@ export default {
     border: function () {
       if (this.red) {
         return '2px solid #f44336';
+      } else if (this.blue) {
+        return '2px solid #03A9F4';
       } else if (this.white) {
         return '2px solid #212121';
       }
@@ -46,6 +54,8 @@ export default {
     label: function () {
       if (this.red) {
         return 'RED TEAM';
+      } else if (this.blue) {
+        return 'BLUE TEAM';
       } else if (this.white) {
         return 'WHITE TEAM';
       } else {
@@ -57,6 +67,8 @@ export default {
         return '#FFFFFF';
       } else if (this.white) {
         return '#212121';
+      } else if (this.blue) {
+        return '#FFFFFF';
       } else {
         return '#212121'
       }

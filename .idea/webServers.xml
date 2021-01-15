@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc567fae-ec75-40c6-a86f-e2d32d527cfa" name="okamo.to" url="">
+        <fileTransfer rootFolder="/home/mimo/Repositories/tamahina" accessType="SFTP" host="okamo.to" port="22" sshConfigId="752db38f-8a0f-4990-95d8-d59782d2f4fc" sshConfig="mimo@okamo.to:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
