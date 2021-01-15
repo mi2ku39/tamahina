@@ -20,6 +20,11 @@
                  alt="美味しいタマゴ寿司"
                  class="img-fluid"/>
           </p>
+          <p>
+            3種のオンラインアニクラが<br>
+            3時間づつ枠取ってレイドしていく<br>
+            個性爆発ノンストップオンラインフェス！！
+          </p>
         </div>
 
         <div class="col-12 text-center">
@@ -419,17 +424,17 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'タマクラ4',
+          content: '美味しいタマゴ寿司',
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/tmkr4_logo.png`,
+          content: `${process.env.BASE_URL}/img/logos/bimitmsushi.png`,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: '── DJのヒナ、出陣 ───',
+          content: '3種のオンラインアニクラが3時間づつ枠取ってレイドしていく個性爆発ノンストップオンラインフェス！！',
         }
       ]
     }
