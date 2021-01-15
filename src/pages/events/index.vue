@@ -53,6 +53,15 @@
           </nuxt-link>
         </div>
 
+
+        <div class="col-12 col-lg-6 mb-3 text-center">
+          <nuxt-link to="/events/bimitmsushi">
+            <img src="/img/logos/bimitmsushi.png"
+                 alt="美味しいタマゴ寿司"
+                 class="img-fluid"/>
+          </nuxt-link>
+        </div>
+
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/kmkr">
             <img src="/img/logos/kmkr.png"
