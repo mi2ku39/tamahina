@@ -396,12 +396,12 @@ export default {
   },
   head() {
     return {
-      title: 'タマクラ4',
+      title: '美味しいタマゴ寿司',
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: 'タマクラ4 | ヒナクラ'
+          content: '美味しいタマゴ寿司 | ヒナクラ'
         },
         {
           hid: 'description',
