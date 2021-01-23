@@ -10,10 +10,10 @@
 
         <div class="col-12 text-center">
           <p>
-            ── DJのタマゴ、出陣 ───
+            ── DJのタマゴ、解放 ───
           </p>
           <p>
-            「またチームバトルってやつしませんか？」<br>
+            「最終回の1話前」<br>
             という名目でオタクたちが大暴れ！<br>
             <br>
             アニクラってなに？って人にオススメの<br>
@@ -558,7 +558,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: '── DJのタマゴ、出陣 ─── 「またチームバトルってやつしませんか？」という名目で' +
+          content: '── DJのタマゴ、解放 ─── 「最終回の1話前」という名目で' +
               'オタクたちが大暴れ！アニクラってなに？って人にオススメの' +
               '初心者向けノンレギュイベント！#ヒナクラ に参加するオタクが練習をする配信だよ' +
               'アニクラ初見？大丈夫！DJもほぼ初心者！ただし、熱意とセトリは"本物"'
@@ -581,12 +581,12 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/tmkr04_logo.png`,
+          content: `${process.env.BASE_URL}/img/logos/tmkr04.5_logo.png`,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: '── DJのヒナ、出陣 ───',
+          content: '── DJのヒナ、解放 ───',
         }
       ]
     }
