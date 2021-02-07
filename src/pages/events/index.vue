@@ -95,9 +95,17 @@
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
+          <nuxt-link to="/events/tmkrf">
+            <img src="/img/logos/tmkrF_logo.png"
+                 alt="タマクラF"
+                 class="img-fluid"/>
+          </nuxt-link>
+        </div>
+
+        <div class="col-12 col-lg-6 mb-3 text-center">
           <img src="/img/logos/tmkr_nazo.png"
-               alt="?"
-               class="img-fluid"/>
+               class="img-fluid"
+               alt="?">
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">

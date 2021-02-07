@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="container bg-white fill-right mt-5 tmkr4_5-shadow-lb slide-in-from-right">
+    <div class="container bg-white fill-right mt-5 tmkr_f-shadow-lb slide-in-from-right">
       <div class="row">
         <div class="col-12 text-center mb-3 mt-3">
-          <img src="/img/logos/tmkr04.5_logo.png"
-               alt="タマクラ4.5"
+          <img src="/img/logos/tmkrF_logo.png"
+               alt="タマクラF"
                class="img-fluid"/>
         </div>
 
         <div class="col-12 text-center">
           <p>
-            ── DJのタマゴ、解放 ───
+            ── DJのタマゴ、孵化 ───
           </p>
           <p>
-            「最終回の1話前」<br>
+            「初心者向けイベントタマクラ、ついに最終回」<br>
             という名目でオタクたちが大暴れ！<br>
             <br>
             アニクラってなに？って人にオススメの<br>
@@ -25,17 +25,17 @@
         </div>
 
         <div class="col-12 text-center">
-          <h1 class="text-strong tmkr4_5-shadow-lb-sm mb-0">
+          <h1 class="text-strong tmkr_f-shadow-lb-sm mb-0">
             開催日時
           </h1>
           <h2 class="text-hi my-0">
-            DAY 1: 2/5 21:30~
+            DAY 1: 2/26 21:00~
           </h2>
           <h2 class="text-hi my-0">
-            DAY 2: 2/6 21:30~
+            DAY 2: 2/28 21:00~
           </h2>
 
-          <h1 class="font-expletus text-strong tmkr4_5-shadow-lb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr_f-shadow-lb-sm mb-0">
             会場
           </h1>
           <h2 class="text-hi my-0">
@@ -46,11 +46,11 @@
             </a>
           </h2>
 
-          <h1 class="font-expletus text-strong tmkr4_5-shadow-lb-sm mb-0">
+          <h1 class="font-expletus text-strong tmkr_f-shadow-lb-sm mb-0">
             詳細
           </h1>
           <h2 class="text-hi mt-0">
-            <a href="https://twipla.jp/events/461964" target="_blank">
+            <a href="https://twipla.jp/events/473710" target="_blank">
               twipla
             </a>
           </h2>
@@ -58,11 +58,11 @@
       </div>
     </div>
 
-    <div class="container bg-white fill-left mt-5 tmkr4_5-shadow-rb py-3 slide-in-from-right">
+    <div class="container bg-white fill-left mt-5 tmkr_f-shadow-rb py-3 slide-in-from-right">
       <div class="row">
         <div class="col-12">
           <div class="text-center">
-            <h1 class="font-expletus text-strong tmkr4_5-shadow-rb-sm">
+            <h1 class="font-expletus text-strong tmkr_f-shadow-rb-sm">
               Members
             </h1>
           </div>
@@ -80,7 +80,30 @@
             </h1>
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d11.jpg"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_01.JPG"
+                     alt="specia"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                specia
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/Revaty0421" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                イベント終わらせるかもしれません
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_02.jpg"
                      alt="影人"
                      class="img-icon img-round"/>
               </template>
@@ -97,246 +120,130 @@
                 </div>
               </template>
               <template v-slot:poem>
-                自分のオタク道が始まった曲たちをかけます！！<br>
-                札幌からよろしくです！！
+                タマクラ最終回ということで、在宅でも暴れていきましょう！
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d12.png"
-                     alt="YU3S"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_03.JPG"
+                     alt="ゆるます"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                YU3S
+                ゆるます
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/YU3S_SH1NY" target="_blank">
+                    <a href="https://twitter.com/yrms_trinity" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                タマクラ初参加です！<br>
-                よろしくお願いします
+                いえーい✌
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d13.jpg"
-                     alt="ちゃい"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_04.jpg"
+                     alt="いとま"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                ちゃい
+                いとま
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/drag_chai" target="_blank">
+                    <a href="https://twitter.com/itoma425" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                意地悪な双子の射○我慢ゲーム<br>
-                左右から「いいよ」と「ダメ」を流し込む音声
+                いつも通り
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d14.jpeg"
-                     alt="中国四千年"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_05.jpg"
+                     alt="hide"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                中国四千年
+                hide
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/Nozomi_kasa_ki" target="_blank">
+                    <a href="https://twitter.com/HIDE517314" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                初心者です、お手柔らかに...
+                タマクラお疲れさまでした！<br>
+                精一杯送り出せるように頑張ります！
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d15.png"
-                     alt="KASUMI_N"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_06.png"
+                     alt="たっくん"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                KASUMI_N
+                たっくん
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/KASUMI______N" target="_blank">
+                    <a href="https://twitter.com/mikuta0407" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                先輩に枠を譲ってもらってタマクラ初参加です！<br>
-                KASUMI_Nの可愛さ覚えてもらってくださいね！
+                ありがとうタマクラ
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d16.jpg"
-                     alt="Fuji-K"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_08.jpg"
+                     alt="ケー"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                Fuji-K
+                ケー
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/FujiK1212dj" target="_blank">
+                    <a href="https://twitter.com/ke_odakyu9000" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                ブシロードロックフェス追悼
+                ロリコンじゃないです。かわいいものに弱いだけ！<br>
+                良い曲<small style="color: #f44336">(要定義)</small>を流すので聞こえたら暴れてほしい！
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d17.png"
-                     alt="Yuka."
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                Yuka.
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/PumPkin_cat7" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                上司 消し方　
-              </template>
-            </dj-profile>
-
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d18.jpeg"
-                     alt="甘納豆"
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                甘納豆
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/AmaNato0" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                年齢14歳<br>
-                誕生日5月31日<br>
-                星座双子座<br>
-                血液型AB型<br>
-                利き手右<br>
-                出身地神奈川県<br>
-                趣味オンラインゲーム<br>
-                特技タイピング<br>
-                好みかわいいもの
-              </template>
-            </dj-profile>
-
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY1/45d19.png"
-                     alt="咲空"
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                咲空
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/s_sakLa_P39" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                念願のタマクラ出演なので
-                "はっちゃけたい"と思います
-              </template>
-            </dj-profile>
-
-          </div>
-        </template>
-      </vertical-title-container>
-
-      <vertical-title-container class="mb-5">
-        <template v-slot:title>
-          DJs
-        </template>
-        <template v-slot:body>
-          <div>
-            <h1 class="font-expletus text-strong">
-              DAY 2
-            </h1>
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d21.jpg"
-                     alt="DAイチ"
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                DAイチ
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/ddd_aaa_1" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                寂しくなるね
-              </template>
-            </dj-profile>
-
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d22.jpg"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_07.png"
                      alt="DJ SunShine"
                      class="img-icon img-round"/>
               </template>
@@ -353,108 +260,89 @@
                 </div>
               </template>
               <template v-slot:poem>
-                「僕と結婚してくれ！」<br>
-                「もちろん！」<br>
-                はぁ・・・(クソデカため息)」<br>
+                生き残りたい
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d23.jpg"
-                     alt="ルリトラ"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_09.jpg"
+                     alt="Web担当"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                ルリトラ
+                Web担当
               </template>
-              <template v-slot:social>
+              <template v-slot:poem>
+                Web担当ちゃんです。
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_10.jpg"
+                     alt="パピ"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                パピ
+              </template>
+              <template #social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/murabitoa3714" target="_blank">
+                    <a href="https://twitter.com/Bitter_sweet38" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                もはやプロフネタ切れ<br>
-                PC変えたら素材類吹き飛んでて泣いた
+                大学の先輩がお世話になっているタマクラに参加させていただくということで<br>
+                恥のないようなDJができたらいいなと思っています！！
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d24.png"
-                     alt="TMTMN"
+                <img src="@/assets/img/social_icons/tmkrF/DAY1/F1_11.JPG"
+                     alt="じっつ"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                TMTMN
+                じっつ
               </template>
-              <template v-slot:social>
+              <template #social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/tomatoman714" target="_blank">
+                    <a href="https://twitter.com/jt__1" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                私の人生を変えた、あの頃のユーロを流したい。
+                [Twipla]ここまで頑張ってくれた主催のためになにかしたくないですか?<br>
+                <a href="https://twipla.jp/events/473462" target="_blank">https://twipla.jp/events/473462</a>
               </template>
             </dj-profile>
 
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d25.png"
-                     alt="FishTohu"
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                FishTohu
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/FishTohu9346" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                アイマスしか知らないのでアイマスばっかかけます
-              </template>
-            </dj-profile>
+          </div>
+        </template>
+      </vertical-title-container>
+
+      <vertical-title-container class="mb-5">
+        <template v-slot:title>
+          DJs
+        </template>
+        <template v-slot:body>
+          <div>
+            <h1 class="font-expletus text-strong">
+              DAY 2
+            </h1>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d26.jpg"
-                     alt="emuracool"
-                     class="img-icon img-round"/>
-              </template>
-              <template v-slot:name>
-                emuracool
-              </template>
-              <template v-slot:social>
-                <div class="d-flex align-items-center">
-                  <div>
-                    <a href="https://twitter.com/OrijinHeathaze" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </div>
-                </div>
-              </template>
-              <template v-slot:poem>
-                情緒不安定DJになりたい
-              </template>
-            </dj-profile>
-
-            <dj-profile class="mb-3">
-              <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d27.jpeg"
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_01.JPG"
                      alt="ガイエン"
                      class="img-icon img-round"/>
               </template>
@@ -471,44 +359,254 @@
                 </div>
               </template>
               <template v-slot:poem>
-                タマクラ出演3回目の完全初心者です！
+                くぁwせdrftgyふじこlp;https://twitter.com/:「」
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d28.jpeg"
-                     alt="AYFW"
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_02.jpg"
+                     alt="ルリトラ"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                AYFW
+                ルリトラ
               </template>
               <template v-slot:social>
                 <div class="d-flex align-items-center">
                   <div>
-                    <a href="https://twitter.com/_ayfw" target="_blank">
+                    <a href="https://twitter.com/murabitoA3714" target="_blank">
                       <fa :icon="fa.twitter"/>
                     </a>
                   </div>
                 </div>
               </template>
               <template v-slot:poem>
-                温泉DJ部らしさを出していきたいと思います。
+                タマクラよ永遠に
               </template>
             </dj-profile>
 
             <dj-profile class="mb-3">
               <template v-slot:icon>
-                <img src="@/assets/img/social_icons/tmkr04-5/DAY2/45d29.jpg"
-                     alt="Web担当"
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_03.png"
+                     alt="咲空"
                      class="img-icon img-round"/>
               </template>
               <template v-slot:name>
-                Web担当
+                咲空
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/s_sakLa_P39" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
               </template>
               <template v-slot:poem>
-                ボーカロイド曲を流します。
+                タマクラ、終わるのか.....<br>
+                最後もやっぱり、はっちゃけます
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_04.png"
+                     alt="FishTohu"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                FishTohu
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/FishTohu9346" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                多動こそ人生
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_05.png"
+                     alt="suicat"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                suicat
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/mr_s_21s" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                みなさんどうぞCHAOSを味わてください！
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_06.png"
+                     alt="TMTMN"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                TMTMN
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/tomatoman714" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                第2回から変なことばっかりしました。<br>
+                本当にお世話になりました。<br>
+                恩返しに最後までユーロファイターします！
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_07.jpg"
+                     alt="DAイチ"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                DAイチ
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/ddd_aaa_1" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                ありがとう
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_08.jpg"
+                     alt="emuracool"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                emuracool
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/OrijinHeathaze" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                LastWord/最後の言霊(2)(青)(青)<br>
+                インスタント<br>
+                この呪文1つを対象とし、それを打ち消す。<br>
+                <span class="font-italic text-disabled">
+                いつか、誰かが私を打ち負かすだろう。<br>
+                だがそれは今日ではないし、お前にでもない。
+                  </span>
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_09.jpg"
+                     alt="甘納豆"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                甘納豆
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/AmaNato0" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                「学校が大好きで」「音楽が大好きで」<br>
+                <br>
+                「アイドルが大好きで」「高まるのが大好きで」<br>
+                <br>
+                「メンバーが大好きで」「この毎日が大好きで」<br>
+                <br>
+                「頑張るのが大好きで」「廻すことが大好きで」<br>
+                <br>
+                「タマクラが大好きだったから」
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_10.png"
+                     alt="ちゃい"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                ちゃい
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/drag_chai" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                タマクラ、お前...消えるのか？
+              </template>
+            </dj-profile>
+
+            <dj-profile class="mb-3">
+              <template v-slot:icon>
+                <img src="@/assets/img/social_icons/tmkrF/DAY2/F2_11.png"
+                     alt="塩パセリ"
+                     class="img-icon img-round"/>
+              </template>
+              <template v-slot:name>
+                塩パセリ
+              </template>
+              <template v-slot:social>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <a href="https://twitter.com/siopaseri" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </div>
+                </div>
+              </template>
+              <template v-slot:poem>
+                DJのタマゴ、孵化ーー
               </template>
             </dj-profile>
 
@@ -521,16 +619,16 @@
 </template>
 
 <script>
-import VerticalTitleContainer from "../../components/layouts/VerticalTitleContainer";
-import DjProfile from "../../components/layouts/DjProfile";
 import {mapMutations} from "vuex";
-import {faSoundcloud, faTwitch, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faTwitter, faTwitch} from "@fortawesome/free-brands-svg-icons";
+import DjProfile from "../../components/layouts/DjProfile";
+import VerticalTitleContainer from "../../components/layouts/VerticalTitleContainer";
 
 export default {
-  name: "tmkr04-5",
-  components: {DjProfile, VerticalTitleContainer},
+  name: "tmkrf",
+  components: {VerticalTitleContainer, DjProfile},
   mounted() {
-    this.setBackgroundColor("#E8EAF6");
+    this.setBackgroundColor('#faf0d4');
   },
   methods: {
     ...mapMutations({
@@ -541,24 +639,24 @@ export default {
     fa: function () {
       return {
         twitch: faTwitch,
-        twitter: faTwitter,
-        soundCloud: faSoundcloud
+        twitter: faTwitter
       }
     }
   },
   head() {
     return {
-      title: 'タマクラ4.5',
+      title: 'タマクラF',
       meta: [
         {
           hid: 'title',
           name: 'title',
-          content: 'タマクラ4.5 | ヒナクラ'
+          content: 'タマクラF | ヒナクラ'
         },
         {
           hid: 'description',
           name: 'description',
-          content: '── DJのタマゴ、解放 ─── 「最終回の1話前」という名目で' +
+          content: '── DJのタマゴ、孵化 ─── ' +
+              '「初心者向けイベントタマクラ、ついに最終回」という名目で' +
               'オタクたちが大暴れ！アニクラってなに？って人にオススメの' +
               '初心者向けノンレギュイベント！#ヒナクラ に参加するオタクが練習をする配信だよ' +
               'アニクラ初見？大丈夫！DJもほぼ初心者！ただし、熱意とセトリは"本物"'
@@ -576,17 +674,17 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'タマクラ4.5',
+          content: 'タマクラF',
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/tmkr04.5_logo.png`,
+          content: `${process.env.BASE_URL}/img/logos/tmkrF_logo.png`,
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: '── DJのヒナ、解放 ───',
+          content: '── DJのヒナ、孵化 ───',
         }
       ]
     }
@@ -595,24 +693,24 @@ export default {
 </script>
 
 <style lang="scss">
-@mixin shadow($offset_x: 0.5em, $offset_y: 0.5em, $blur:0, $color: #673AB7) {
+@mixin shadow($offset_x: 0.5em, $offset_y: 0.5em, $blur:0, $color: #e6b422) {
   filter: drop-shadow($offset_x $offset_y $blur $color);
 }
 
-.tmkr4_5-shadow-rb {
+.tmkr_f-shadow-rb {
   @include shadow;
 }
 
-.tmkr4_5-shadow-rb-sm {
-  @include shadow(.0625em, .0625em, 0, #E8EAF6);
+.tmkr_f-shadow-rb-sm {
+  @include shadow(.0625em, .0625em, 0, #e6dab8);
 }
 
-.tmkr4_5-shadow-lb {
+.tmkr_f-shadow-lb {
   @include shadow(-.5em);
 }
 
-.tmkr4_5-shadow-lb-sm {
-  @include shadow(-.0625em, .0625em, 0, #E8EAF6);
+.tmkr_f-shadow-lb-sm {
+  @include shadow(-.0625em, .0625em, 0, #e6dab8);
 }
 
 </style>

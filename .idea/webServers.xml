@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="2869aa3d-fe31-4e92-a452-57430e2e6f68" name="local.okamo.to" url="http://okamo.to:8080">
+        <fileTransfer rootFolder="/home/mimo/Repositories/tamahina" accessType="SFTP" host="local.okamo.to" port="22" sshConfigId="d8b2c8e4-0311-4b95-b9ed-11e1d7e678ee" sshConfig="mimo@local.okamo.to:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
