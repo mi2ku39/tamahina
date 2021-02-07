@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="/img/fliers/tmkr04-5.png" class="index-flier index-shadow-lb" alt="タマクラ4.5">
+          <img src="/img/fliers/tmkrf.png" class="index-flier index-shadow-lb" alt="タマクラ4.5">
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/fliers/tmkrf.jpg`,
+          content: `${process.env.BASE_URL}/img/fliers/tmkrf.png`,
         },
         {
           property: 'og:description',
