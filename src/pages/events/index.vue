@@ -103,6 +103,12 @@
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
+          <img src="/img/logos/tmkr_nazo.png"
+               class="img-fluid"
+               alt="?">
+        </div>
+
+        <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/hnkr">
             <img src="/img/logos/hnkr.png"
                  alt="ヒナクラ"
