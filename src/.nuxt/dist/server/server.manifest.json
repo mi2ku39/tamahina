@@ -1,0 +1,41 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/about.js": "pages/about.js",
+    "pages/events/bimitmsushi.js": "pages/events/bimitmsushi.js",
+    "pages/events/hnkr.js": "pages/events/hnkr.js",
+    "pages/events/index.js": "pages/events/index.js",
+    "pages/events/kmkr.js": "pages/events/kmkr.js",
+    "pages/events/tmkr00.js": "pages/events/tmkr00.js",
+    "pages/events/tmkr01.js": "pages/events/tmkr01.js",
+    "pages/events/tmkr02-5.js": "pages/events/tmkr02-5.js",
+    "pages/events/tmkr02.js": "pages/events/tmkr02.js",
+    "pages/events/tmkr03-5.js": "pages/events/tmkr03-5.js",
+    "pages/events/tmkr03.js": "pages/events/tmkr03.js",
+    "pages/events/tmkr04-5.js": "pages/events/tmkr04-5.js",
+    "pages/events/tmkr04.js": "pages/events/tmkr04.js",
+    "pages/events/tmkrf.js": "pages/events/tmkrf.js",
+    "pages/index.js": "pages/index.js",
+    "pages/others.js": "pages/others.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/about.js": "pages/about.js.map",
+    "pages/events/bimitmsushi.js": "pages/events/bimitmsushi.js.map",
+    "pages/events/hnkr.js": "pages/events/hnkr.js.map",
+    "pages/events/index.js": "pages/events/index.js.map",
+    "pages/events/kmkr.js": "pages/events/kmkr.js.map",
+    "pages/events/tmkr00.js": "pages/events/tmkr00.js.map",
+    "pages/events/tmkr01.js": "pages/events/tmkr01.js.map",
+    "pages/events/tmkr02-5.js": "pages/events/tmkr02-5.js.map",
+    "pages/events/tmkr02.js": "pages/events/tmkr02.js.map",
+    "pages/events/tmkr03-5.js": "pages/events/tmkr03-5.js.map",
+    "pages/events/tmkr03.js": "pages/events/tmkr03.js.map",
+    "pages/events/tmkr04-5.js": "pages/events/tmkr04-5.js.map",
+    "pages/events/tmkr04.js": "pages/events/tmkr04.js.map",
+    "pages/events/tmkrf.js": "pages/events/tmkrf.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/others.js": "pages/others.js.map",
+    "server.js": "server.js.map"
+  }
+}
