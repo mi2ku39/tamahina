@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            タマクラ4.5 開催！
+            タマクラF 開催！
           </h1>
           <p>
-            ── DJのタマゴ、解放 ───
+            ── DJのタマゴ、孵化 ───
           </p>
           <div class="text-right">
-            <tama-button to="/events/tmkr04-5" nuxt-link>
+            <tama-button to="/events/tmkrf" nuxt-link>
               show more
             </tama-button>
           </div>
@@ -99,7 +99,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/fliers/tmkr04-5.jpg`,
+          content: `${process.env.BASE_URL}/img/fliers/tmkrf.jpg`,
         },
         {
           property: 'og:description',
