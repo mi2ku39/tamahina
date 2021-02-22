@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row justify-content-between">
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr00">
             <img src="/img/logos/tmkr00_logo.png"
@@ -103,9 +103,11 @@
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
-          <img src="/img/logos/tmkr_nazo.png"
-               class="img-fluid"
-               alt="?">
+          <nuxt-link to="/events/hnkr0">
+            <img src="/img/logos/hnkr0_logo.png"
+                 class="img-fluid"
+                 alt="ヒナクラ0">
+          </nuxt-link>
         </div>
 
         <div class="col-12 col-lg-6 mb-3 text-center">
