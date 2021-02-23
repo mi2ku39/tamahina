@@ -423,7 +423,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/logos/hnkr0.png`,
+          content: `${process.env.BASE_URL}/img/logos/hnkr0_logo.png`,
         },
         {
           hid: 'og:description',
