@@ -24,13 +24,13 @@
             開催日時
           </h1>
           <h2 class="text-hi my-0">
-            DAY 1: 9/11 22:00~
+            DAY 1: 2020/9/11 22:00~
           </h2>
           <h2 class="text-hi my-0">
-            DAY 2: 9/12 22:30~
+            DAY 2: 2020/9/12 22:30~
           </h2>
           <h2 class="text-hi mt-0">
-            DAY 3: 9/19 22:30~
+            DAY 3: 2020/9/19 22:30~
           </h2>
 
           <h1 class="font-expletus text-strong tmkr3-shadow-lb-sm mb-0">

@@ -73,3 +73,4 @@ fabric.properties
 # deployment
 .idea/webServers.xml
 .idea/deployment.xml
+.idea/sshConfigs.xml

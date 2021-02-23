@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="OPEN_SSH" host="okamo.to" id="752db38f-8a0f-4990-95d8-d59782d2f4fc" port="22" nameFormat="DESCRIPTIVE" username="mimo" />
-    </configs>
-  </component>
-</project>
