@@ -11,26 +11,7 @@
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-right index-shadow-lb slide-in-from-right">
-      <div class="row">
-        <div class="col-12 pb-3">
-          <h1 class="font-noto text-hi index-shadow-lb-sm">
-            新規参加者募集中
-          </h1>
-          <p>
-            今後のタマクラ参加者を募集中！未経験者大歓迎！詳細は以下のフォームをご確認ください！<br>
-          </p>
-          <div class="text-right">
-            <tama-button to="https://docs.google.com/forms/d/1ixknOly2osmkZ9CFd3XGPVc3tDMd7yBUjaFpICHs2iQ"
-                         target="_blank">
-              フォームを開く
-            </tama-button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-white my-5 container fill-left index-shadow-rb slide-in-from-left">
+    <div class="bg-white my-5 container fill-left index-shadow-lb slide-in-from-left">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-noto text-hi index-shadow-lb-sm">
@@ -93,7 +74,7 @@
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-right index-shadow-lb slide-in-from-right">
+    <div class="bg-white my-5 container fill-right index-shadow-rb slide-in-from-right">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-noto text-hi index-shadow-lb-sm text-center">
