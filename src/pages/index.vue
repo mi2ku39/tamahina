@@ -44,23 +44,6 @@
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-left index-shadow-lb slide-in-from-left">
-      <div class="row">
-        <div class="col-12 pb-3">
-          <h1 class="font-expletus text-hi index-shadow-lb-sm">
-            Shall we dance?
-          </h1>
-          <p>
-            タマクラ参加者募集中！
-          </p>
-          <div class="text-right">
-            <tama-button to="/others" nuxt-link>
-              more
-            </tama-button>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
