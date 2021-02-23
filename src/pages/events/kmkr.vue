@@ -29,7 +29,7 @@
             開催日時
           </h1>
           <h2 class="text-hi my-0">
-            11/7 22:00~
+            2020/11/7 22:00~
           </h2>
 
           <h1 class="font-expletus text-strong kmkr-shadow-lb-sm mb-0">

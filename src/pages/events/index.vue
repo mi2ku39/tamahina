@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="row justify-content-between">
+      <div class="row justify-content-around">
         <div class="col-12 col-lg-6 mb-3 text-center">
           <nuxt-link to="/events/tmkr00">
             <img src="/img/logos/tmkr00_logo.png"

@@ -2,7 +2,7 @@
   <div>
     <div class="container bg-white fill-right mt-5 hnkr0-shadow-lb slide-in-from-right">
       <div class="row">
-        <div class="col-12 text-center my-5">
+        <div class="col-12 text-center mt-3 mb-5">
           <img src="/img/logos/hnkr0_logo.png"
                alt="ヒナクラ0"
                class="img-fluid"/>
@@ -221,7 +221,7 @@
               <template #body>
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/hnkr0/DAY2/F2_02.png"
+                    <img src="@/assets/img/social_icons/hnkr0/DAY2/F2_01.png"
                          alt="ダークSZKZ"
                          class="img-icon img-round"/>
                   </template>

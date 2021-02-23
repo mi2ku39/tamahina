@@ -29,10 +29,10 @@
             開催日時
           </h1>
           <h2 class="text-hi my-0">
-            DAY 1: 11/15 21:00~
+            DAY 1: 2020/11/15 21:00~
           </h2>
           <h2 class="text-hi my-0">
-            DAY 2: 11/29 21:00~
+            DAY 2: 2020/11/29 21:00~
           </h2>
 
           <h1 class="font-expletus text-strong tmkr3-5-shadow-lb-sm mb-0">
