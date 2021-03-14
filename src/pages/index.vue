@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="/img/fliers/tmkrf.png" class="index-flier index-shadow-lb" alt="タマクラ4.5">
+          <img src="/img/fliers/hnkr0.png" class="index-flier index-shadow-lb" alt="ヒナクラゼロ">
         </div>
       </div>
     </div>
@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            タマクラF 開催！
+            ヒナクラゼロ 開催！
           </h1>
           <p>
-            ── DJのタマゴ、孵化 ───
+            ── DJのタマゴ、激励 ───
           </p>
           <div class="text-right">
-            <tama-button to="/events/tmkrf" nuxt-link>
+            <tama-button to="/events/hnkr0" nuxt-link>
               show more
             </tama-button>
           </div>
@@ -82,7 +82,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/fliers/tmkrf.png`,
+          content: `${process.env.BASE_URL}/img/fliers/hnkr0.png`,
         },
         {
           property: 'og:description',
