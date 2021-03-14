@@ -64,7 +64,7 @@
             Time Table
           </h1>
           <div>
-            <img src="@/assets/img/social_icons/hnkr0/z1.png" class="w-100">
+            <img src="@/assets/img/social_icons/hnkr0/z1_stable.jpg" class="w-100">
           </div>
         </div>
       </div>
