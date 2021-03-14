@@ -1,0 +1,121 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_6541e70e"
+  },
+  {
+    "name": "events",
+    "path": "/events",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/index.vue",
+    "chunkName": "pages/events/index",
+    "_name": "_f3283cc0"
+  },
+  {
+    "name": "others",
+    "path": "/others",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/others.vue",
+    "chunkName": "pages/others",
+    "_name": "_fbe6fbb2"
+  },
+  {
+    "name": "events-bimitmsushi",
+    "path": "/events/bimitmsushi",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/bimitmsushi.vue",
+    "chunkName": "pages/events/bimitmsushi",
+    "_name": "_fe5d15f8"
+  },
+  {
+    "name": "events-hnkr",
+    "path": "/events/hnkr",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/hnkr.vue",
+    "chunkName": "pages/events/hnkr",
+    "_name": "_66ece70f"
+  },
+  {
+    "name": "events-hnkr0",
+    "path": "/events/hnkr0",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/hnkr0.vue",
+    "chunkName": "pages/events/hnkr0",
+    "_name": "_76ab7531"
+  },
+  {
+    "name": "events-kmkr",
+    "path": "/events/kmkr",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/kmkr.vue",
+    "chunkName": "pages/events/kmkr",
+    "_name": "_69aa326b"
+  },
+  {
+    "name": "events-tmkr00",
+    "path": "/events/tmkr00",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr00.vue",
+    "chunkName": "pages/events/tmkr00",
+    "_name": "_3deb89c2"
+  },
+  {
+    "name": "events-tmkr01",
+    "path": "/events/tmkr01",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr01.vue",
+    "chunkName": "pages/events/tmkr01",
+    "_name": "_3df9a143"
+  },
+  {
+    "name": "events-tmkr02",
+    "path": "/events/tmkr02",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr02.vue",
+    "chunkName": "pages/events/tmkr02",
+    "_name": "_3e07b8c4"
+  },
+  {
+    "name": "events-tmkr02-5",
+    "path": "/events/tmkr02-5",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr02-5.vue",
+    "chunkName": "pages/events/tmkr02-5",
+    "_name": "_54d86128"
+  },
+  {
+    "name": "events-tmkr03",
+    "path": "/events/tmkr03",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr03.vue",
+    "chunkName": "pages/events/tmkr03",
+    "_name": "_3e15d045"
+  },
+  {
+    "name": "events-tmkr03-5",
+    "path": "/events/tmkr03-5",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr03-5.vue",
+    "chunkName": "pages/events/tmkr03-5",
+    "_name": "_0a7a0aad"
+  },
+  {
+    "name": "events-tmkr04",
+    "path": "/events/tmkr04",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr04.vue",
+    "chunkName": "pages/events/tmkr04",
+    "_name": "_3e23e7c6"
+  },
+  {
+    "name": "events-tmkr04-5",
+    "path": "/events/tmkr04-5",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkr04-5.vue",
+    "chunkName": "pages/events/tmkr04-5",
+    "_name": "_3f6045ee"
+  },
+  {
+    "name": "events-tmkrf",
+    "path": "/events/tmkrf",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/events/tmkrf.vue",
+    "chunkName": "pages/events/tmkrf",
+    "_name": "_04f87194"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/runner/work/tamahina/tamahina/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_25d23184"
+  }
+]
