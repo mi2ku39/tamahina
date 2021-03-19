@@ -66,7 +66,7 @@
             Time Table
           </h1>
           <div>
-            <img src="@/assets/img/social_icons/hnkr/k1.png" class="w-100">
+            <img src="@/assets/img/social_icons/hnkr/k1v2.jpg" class="w-100">
           </div>
         </div>
       </div>
@@ -208,44 +208,6 @@
                 Latter Harf
               </template>
               <template #body>
-                <dj-profile class="mb-3">
-                  <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/hnkr/DJs/H_07.jpeg"
-                         alt="堀川 進"
-                         class="img-icon img-round"/>
-                  </template>
-                  <template v-slot:name>
-                    堀川 進
-                  </template>
-                  <template v-slot:social>
-                    <a href="https://twitter.com/susumu_horikawa" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </template>
-                  <template v-slot:poem>
-                    ☆バ先ソング流すね☆
-                  </template>
-                </dj-profile>
-
-                <dj-profile class="mb-3">
-                  <template v-slot:icon>
-                    <img src="@/assets/img/social_icons/hnkr/DJs/H_08.jpg"
-                         alt="わたあめ"
-                         class="img-icon img-round"/>
-                  </template>
-                  <template v-slot:name>
-                    わたあめ
-                  </template>
-                  <template v-slot:social>
-                    <a href="https://twitter.com/wataame_" target="_blank">
-                      <fa :icon="fa.twitter"/>
-                    </a>
-                  </template>
-                  <template v-slot:poem>
-                    解き放つさよなら<br>
-                    溢れ出すありがとう
-                  </template>
-                </dj-profile>
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
@@ -270,6 +232,27 @@
 
                 <dj-profile class="mb-3">
                   <template v-slot:icon>
+                    <img src="@/assets/img/social_icons/hnkr/DJs/H_08.jpg"
+                         alt="わたあめ"
+                         class="img-icon img-round"/>
+                  </template>
+                  <template v-slot:name>
+                    わたあめ
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/wataame_" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                  <template v-slot:poem>
+                    解き放つさよなら<br>
+                    溢れ出すありがとう
+                  </template>
+                </dj-profile>
+
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
                     <img src="@/assets/img/social_icons/hnkr/DJs/H_10.png"
                          alt="Shock_Pan a.k.a. 旧:ふくとも"
                          class="img-icon img-round"/>
@@ -285,6 +268,25 @@
                   <template v-slot:poem>
                     好きな作品の最終巻がなかなか読めないタイプのオタクですが、<br>
                     ヒナクラやろうぜが僕たちのスタートラインなので逃げられません。
+                  </template>
+                </dj-profile>
+
+                <dj-profile class="mb-3">
+                  <template v-slot:icon>
+                    <img src="@/assets/img/social_icons/hnkr/DJs/H_07.jpeg"
+                         alt="堀川 進"
+                         class="img-icon img-round"/>
+                  </template>
+                  <template v-slot:name>
+                    堀川 進
+                  </template>
+                  <template v-slot:social>
+                    <a href="https://twitter.com/susumu_horikawa" target="_blank">
+                      <fa :icon="fa.twitter"/>
+                    </a>
+                  </template>
+                  <template v-slot:poem>
+                    ☆バ先ソング流すね☆
                   </template>
                 </dj-profile>
 

@@ -3,7 +3,7 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="/img/fliers/hnkr0.png" class="index-flier index-shadow-lb" alt="ヒナクラゼロ">
+          <img src="/img/fliers/hnkr_v2.jpg" class="index-flier index-shadow-lb" alt="ヒナクラゼロ">
         </div>
       </div>
     </div>
@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            ヒナクラゼロ 開催！
+            ヒナクラ 開催！
           </h1>
           <p>
-            ── DJのタマゴ、激励 ───
+            ── DJのタマゴ、飛翔 ───
           </p>
           <div class="text-right">
-            <tama-button to="/events/hnkr0" nuxt-link>
+            <tama-button to="/events/hnkr" nuxt-link>
               show more
             </tama-button>
           </div>
@@ -66,7 +66,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！'
+          content: '⚡大17代の卒業祝いアニクラとして2021/03/20に「ヒナクラ」を開催！'
         },
         {
           property: 'og:url',
@@ -82,11 +82,11 @@ export default {
         },
         {
           property: 'og:image',
-          content: `${process.env.BASE_URL}/img/fliers/hnkr0.png`,
+          content: `${process.env.BASE_URL}/img/fliers/hnkr_v2.jpg`,
         },
         {
           property: 'og:description',
-          content: '⚡大17代の卒業祝いアニクラとして2021/03/06に「ヒナクラ」を開催！また、ヒナクラ参加DJの練習としてDJの"タマゴ"向けオンラインアニクラ「タマクラ」も定期的に開催！',
+          content: '⚡大17代の卒業祝いアニクラとして2021/03/20に「ヒナクラ」を開催！',
         },
         {
           hid: 'twitter:card',
