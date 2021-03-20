@@ -1,5 +1,5 @@
 <template>
-  <div class="navigator-container text-hi mt-3">
+  <div class="navigator-container text-hi mt-3" :class="{'dark': white}">
     <div>
       <nuxt-link to="/">
         <img src="@/assets/img/logos/hnkr.png"
@@ -47,7 +47,8 @@ export default {
       }
     },
     ...mapState({
-      visitIn: 'visitIn'
+      visitIn: 'visitIn',
+      white: 'navigatorWhite'
     })
   }
 }
@@ -56,6 +57,16 @@ export default {
 <style lang="scss">
 @mixin shadow($offset_x: 0.5em, $offset_y: 0.5em, $blur:0, $color: #9E9E9E) {
   filter: drop-shadow($offset_x $offset_y $blur $color);
+}
+
+.dark a {
+  &:visited, &:link {
+    color: rgba(#FFFFFF, .5) !important;
+  }
+
+  &:hover {
+    color: #FFFFFF !important;
+  }
 }
 
 .navigator-container {
@@ -86,6 +97,10 @@ export default {
         filter: none !important;
       }
     }
+  }
+
+  & > * {
+    z-index: 100;
   }
 }
 

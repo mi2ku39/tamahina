@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden-overflow-x" :style="style">
+  <div class="hidden-overflow-x position-relative" :style="style">
     <div class="container">
       <div class="row">
         <div class="col-12">
