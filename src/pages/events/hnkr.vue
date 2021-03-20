@@ -28,8 +28,14 @@
             開催日時
           </h1>
           <h2 class="text-hi mt-0">
-            2021/3/20 14:00~
+            2021/3/20
           </h2>
+
+          <h3>OPEN</h3>
+          <h2 class="text-hi mt-0">12:15</h2>
+
+          <h3>OPEN</h3>
+          <h2 class="text-hi mt-0">12:30</h2>
 
           <h1 class="font-expletus text-strong hnkr-shadow-lb-sm mb-0">
             会場
