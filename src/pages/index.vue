@@ -1,32 +1,31 @@
 <template>
   <div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center fade-in">
-          <img src="/img/fliers/hnkr_v2.jpg" class="index-flier index-shadow-lb" alt="ヒナクラゼロ">
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-white my-5 container fill-left index-shadow-lb slide-in-from-left">
-      <div class="row">
-        <div class="col-12 pb-3">
-          <h1 class="font-expletus text-hi index-shadow-rb-sm">
-            ヒナクラ 開催！
-          </h1>
-          <p>
-            ── DJのタマゴ、飛翔 ───
-          </p>
-          <div class="text-right">
-            <tama-button to="/events/hnkr" nuxt-link>
-              show more
-            </tama-button>
+    <div class="eyecatch-container fade-in">
+      <div class="catchcopy">
+        <div>
+          <div>
+            さらば、ヒナクラ。
           </div>
         </div>
+        <div>
+          <img src="@/assets/img/logos/hnkr.png"/>
+        </div>
+      </div>
+      <div class="slideshow">
+        <img src="@/assets/img/eyecatch/hnkr/01.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/02.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/03.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/04.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/05.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/06.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/07.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/08.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/09.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/10.JPG" class="eyecatch-img"/>
       </div>
     </div>
 
-    <div class="bg-white my-5 container fill-right index-shadow-rb slide-in-from-right">
+    <div class="bg-white mb-5 container fill-left index-shadow-lb slide-in-from-left mt-vh100">
       <div class="row">
         <div class="col-12 pb-3">
           <h1 class="font-expletus text-hi index-shadow-rb-sm">
@@ -99,11 +98,16 @@ export default {
   mounted() {
     this.setVisitIn(this.$route.name);
     this.setBackgroundColor('#FAFAFA');
+    this.setNavigatorWhite(true);
+  },
+  destroyed() {
+    this.setNavigatorWhite(false);
   },
   methods: {
     ...mapMutations({
       setBackgroundColor: 'setBackgroundColor',
-      setVisitIn: 'setVisitIn'
+      setVisitIn: 'setVisitIn',
+      setNavigatorWhite: 'setNavigatorWhite'
     })
   }
 }
@@ -114,5 +118,164 @@ export default {
   max-width: 800px;
   width: 100%;
   object-fit: contain;
+}
+
+.eyecatch-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50rem;
+
+  background: #eee;
+  z-index: 1;
+  overflow: hidden;
+
+  & > div {
+    width: 100%;
+    position: relative;
+  }
+
+  & .catchcopy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 50;
+
+    & > div:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5rem;
+
+      & > div {
+        color: #FFFFFF;
+        writing-mode: vertical-rl;
+        font-size: 3rem;
+        font-family: serif;
+        font-weight: bold;
+      }
+    }
+
+    & > div:nth-child(2) {
+      height: 8rem;
+
+      & > img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  & > .slideshow {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #000000;
+    z-index: 49;
+  }
+
+  & .eyecatch-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    filter: brightness(50%);
+
+    animation-name: slideshow;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+
+    &:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 10s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 20s;
+    }
+
+    &:nth-child(4) {
+      animation-delay: 30s;
+    }
+
+    &:nth-child(5) {
+      animation-delay: 40s;
+    }
+
+    &:nth-child(6) {
+      animation-delay: 50s;
+    }
+
+    &:nth-child(7) {
+      animation-delay: 60s;
+    }
+
+    &:nth-child(8) {
+      animation-delay: 70s;
+    }
+
+    &:nth-child(9) {
+      animation-delay: 80s;
+    }
+
+    &:nth-child(10) {
+      animation-delay: 90s;
+    }
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    z-index: 1;
+    opacity: 0;
+  }
+
+  5% {
+    z-index: 1;
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  11% {
+    opacity: 1;
+    z-index: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  21% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.mt-vh100 {
+  margin-top: 50rem !important;
 }
 </style>
