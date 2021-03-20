@@ -12,11 +12,16 @@
         </div>
       </div>
       <div class="slideshow">
-        <img src="@/assets/img/eyecatch/01.jpeg" class="eyecatch-img"/>
-        <img src="@/assets/img/eyecatch/02.jpeg" class="eyecatch-img"/>
-        <img src="@/assets/img/eyecatch/03.jpeg" class="eyecatch-img"/>
-        <img src="@/assets/img/eyecatch/04.jpeg" class="eyecatch-img"/>
-        <img src="@/assets/img/eyecatch/05.jpeg" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/01.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/02.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/03.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/04.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/05.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/06.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/07.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/08.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/09.JPG" class="eyecatch-img"/>
+        <img src="@/assets/img/eyecatch/hnkr/10.JPG" class="eyecatch-img"/>
       </div>
     </div>
 
@@ -189,7 +194,7 @@ export default {
     filter: brightness(50%);
 
     animation-name: slideshow;
-    animation-duration: 50s;
+    animation-duration: 100s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
     animation-timing-function: linear;
@@ -213,6 +218,26 @@ export default {
     &:nth-child(5) {
       animation-delay: 40s;
     }
+
+    &:nth-child(6) {
+      animation-delay: 50s;
+    }
+
+    &:nth-child(7) {
+      animation-delay: 60s;
+    }
+
+    &:nth-child(8) {
+      animation-delay: 70s;
+    }
+
+    &:nth-child(9) {
+      animation-delay: 80s;
+    }
+
+    &:nth-child(10) {
+      animation-delay: 90s;
+    }
   }
 }
 
@@ -227,21 +252,21 @@ export default {
     opacity: 1;
   }
 
-  20% {
+  10% {
     opacity: 1;
     z-index: 1;
   }
 
-  21% {
+  11% {
     opacity: 1;
     z-index: 0;
   }
 
-  30% {
+  20% {
     opacity: 1;
   }
 
-  31% {
+  21% {
     opacity: 0;
   }
 
